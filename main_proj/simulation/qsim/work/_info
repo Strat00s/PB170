@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Stratos\Documents\0_Projects\PB170\main_proj\simulation\qsim
+vknight_rider
+Z1 !s100 CA4IaTK^z0O9j0i>_l;=C0
+Z2 IiQ_4U@A;6Li5^VZn3L>CK1
+Z3 VVBjjdBR[0^KIS5d``;6a?2
+Z4 dC:\Users\Stratos\Documents\0_Projects\PB170\main_proj\simulation\qsim
+Z5 w1673037637
+Z6 8knight_rider.vo
+Z7 Fknight_rider.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|knight_rider.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1673037638.771000
+Z12 !s107 knight_rider.vo|
+!s101 -O0
+vknight_rider_vlg_check_tst
+!i10b 1
+Z13 !s100 z]eO2EG1L7dSmU@kW2SNC1
+Z14 IU]SbO>gA6j2JSo91B:cV@2
+Z15 VLOP``KDnb4UeL=`mgXl_71
+R4
+R5
+Z16 8knight_rider.vt
+Z17 Fknight_rider.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z18 !s108 1673037638.848000
+Z19 !s107 knight_rider.vt|
+Z20 !s90 -work|work|knight_rider.vt|
+!s101 -O0
+R10
+vknight_rider_vlg_sample_tst
+!i10b 1
+Z21 !s100 dBLgj]cF@W^h8<06jH8`[2
+Z22 IiFIlR=KQWz>X8YPSGS@9A1
+Z23 Vff;OGCkDhl<[LT:=mBLA[1
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vknight_rider_vlg_vec_tst
+!i10b 1
+!s100 1@VdaUl2i_h22nPafgYa>2
+ITNhX3mb2>O3Z8kZdnR2S<1
+Z24 VX=?6ZjSYZ;gE=ODL`jl=a0
+R4
+R5
+R16
+R17
+Z25 L0 152
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

@@ -1,0 +1,15 @@
+
+module knight_rider(
+      /* Enable CLOCK */
+	input              CLOCK_50,
+	output reg clk
+);
+
+	initial begin
+		clk = 0;
+	end
+	
+	always@(posedge CLOCK_50) begin
+		clk = ~clk;
+	end
+endmodule

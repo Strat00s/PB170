@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Stratos\Documents\0_Projects\PB170\main_proj\simulation\modelsim
+vknight_rider
+!i10b 1
+!s100 k`mczHBRjkz27b_G54<cz0
+IC8U74QOjA8m>MhU:N9XJ02
+VVBjjdBR[0^KIS5d``;6a?2
+Z1 dC:\Users\Stratos\Documents\0_Projects\PB170\main_proj\simulation\modelsim
+w1673033227
+8C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/knight_rider.v
+FC:/Users/Stratos/Documents/0_Projects/PB170/main_proj/knight_rider.v
+L0 2
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1673037517.139000
+!s107 C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/knight_rider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Stratos/Documents/0_Projects/PB170/main_proj|C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/knight_rider.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/Stratos/Documents/0_Projects/PB170/main_proj -O0
