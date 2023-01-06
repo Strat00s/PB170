@@ -1,0 +1,8 @@
+
+**** Build of configuration Nios II for project usb_host_vga ****
+
+make all 
+Info: Building ../usb_host_vga_bsp/
+make --no-print-directory -C ../usb_host_vga_bsp/
+[BSP build complete]
+[usb_host_vga build complete]

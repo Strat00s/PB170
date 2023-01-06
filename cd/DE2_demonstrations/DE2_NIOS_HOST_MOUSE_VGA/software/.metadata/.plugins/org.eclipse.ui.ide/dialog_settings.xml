@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="786" key="DIALOG_WIDTH"/>
+		<item value="197" key="DIALOG_Y_ORIGIN"/>
+		<item value="119" key="DIALOG_X_ORIGIN"/>
+		<item value="281" key="DIALOG_HEIGHT"/>
+		<item value="1|宋体|9|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|宋体" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.views.task">
+	</section>
+	<section name="org.eclipse.ui.views.problem">
+	</section>
+	<section name="NewWizardAction">
+		<item value="com.altera.nj.ui.wizards.ManagedNJWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

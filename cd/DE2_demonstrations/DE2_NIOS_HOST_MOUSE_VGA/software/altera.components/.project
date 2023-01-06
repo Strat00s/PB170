@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>altera.components</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Nios II Software Packages</name>
+			<type>2</type>
+			<location>C:/altera/11.1/nios2eds/components</location>
+		</link>
+	</linkedResources>
+</projectDescription>

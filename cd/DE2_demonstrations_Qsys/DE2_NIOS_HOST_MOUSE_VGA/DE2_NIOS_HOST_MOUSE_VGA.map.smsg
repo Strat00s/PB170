@@ -1,0 +1,6 @@
+Warning (10273): Verilog HDL warning at system_0_sdram_0_test_component.v(234): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at system_0_sdram_0_test_component.v(235): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at system_0_lcd_16207_0.v(61): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at system_0_LCD.v(61): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at system_0_id_router_005.sv(36): object "DEFAULT_DESTID" differs only in case from object "default_destid" in the same scope
+Info (10281): Verilog HDL Declaration information at system_0_id_router_004.sv(36): object "DEFAULT_DESTID" differs only in case from object "default_destid" in the same scope

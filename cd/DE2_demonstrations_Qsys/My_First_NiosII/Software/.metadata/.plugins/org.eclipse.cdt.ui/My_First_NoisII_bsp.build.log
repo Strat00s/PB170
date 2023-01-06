@@ -1,0 +1,5 @@
+
+**** Clean-only build of configuration Nios II for project My_First_NoisII_bsp ****
+
+make clean 
+[BSP clean complete]

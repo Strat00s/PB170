@@ -1,0 +1,117 @@
+Altera SOPC Builder Version 11.11 Build 216
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.02.01 19:35:45 (*) mk_custom_sdk starting
+# 2012.02.01 19:35:45 (*) Reading project D:/SVN/DE2/DE2/test/SOPC_Q11_1/DE2_NET/system_0.ptf.
+
+# 2012.02.01 19:35:45 (*) Finding all CPUs
+# 2012.02.01 19:35:45 (*) Finding all available components
+# 2012.02.01 19:35:45 (*) Reading D:/SVN/DE2/DE2/test/SOPC_Q11_1/DE2_NET/.sopc_builder/install.ptf
+
+# 2012.02.01 19:35:46 (*) Found 68 components
+
+# 2012.02.01 19:35:46 (*) Finding all peripherals
+
+# 2012.02.01 19:35:46 (*) Finding software components
+
+# 2012.02.01 19:35:47 (*) (Legacy SDK Generation Skipped)
+# 2012.02.01 19:35:47 (*) (All TCL Script Generation Skipped)
+# 2012.02.01 19:35:47 (*) (No Libraries Built)
+# 2012.02.01 19:35:47 (*) (Contents Generation Skipped)
+# 2012.02.01 19:35:47 (*) mk_custom_sdk finishing
+
+# 2012.02.01 19:35:47 (*) Starting generation for system: system_0.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+......
+
+# 2012.02.01 19:35:49 (*) Running Generator Program for cpu_0
+
+# 2012.02.01 19:35:51 (*) Starting Nios II generation
+# 2012.02.01 19:35:51 (*)   Checking for plaintext license.
+# 2012.02.01 19:36:02 (*)   Plaintext license not found.
+# 2012.02.01 19:36:02 (*)   Checking for encrypted license (non-evaluation).
+# 2012.02.01 19:36:13 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2012.02.01 19:36:13 (*)   Getting CPU configuration settings
+# 2012.02.01 19:36:14 (*)   Elaborating CPU configuration settings
+# 2012.02.01 19:36:14 (*)   Creating all objects for CPU
+
+# 2012.02.01 19:36:14 (*)     Testbench
+# 2012.02.01 19:36:14 (*)     Instruction decoding
+# 2012.02.01 19:36:14 (*)       Instruction fields
+# 2012.02.01 19:36:14 (*)       Instruction decodes
+# 2012.02.01 19:36:15 (*)       Signals for RTL simulation waveforms
+# 2012.02.01 19:36:15 (*)       Instruction controls
+# 2012.02.01 19:36:15 (*)     Pipeline frontend
+# 2012.02.01 19:36:15 (*)     Pipeline backend
+# 2012.02.01 19:36:19 (*)   Generating HDL from CPU objects
+# 2012.02.01 19:36:22 (*)   Creating encrypted HDL
+
+# 2012.02.01 19:36:24 (*) Done Nios II generation
+
+# 2012.02.01 19:36:24 (*) Running Generator Program for cfi_flash_0
+
+# 2012.02.01 19:36:25 (*) Running Generator Program for sdram_0
+
+# 2012.02.01 19:36:27 (*) Running Generator Program for epcs_controller
+
+# 2012.02.01 19:36:28 (*) Running Generator Program for jtag_uart_0
+
+# 2012.02.01 19:36:30 (*) Running Generator Program for uart_0
+
+# 2012.02.01 19:36:32 (*) Running Generator Program for timer_0
+
+# 2012.02.01 19:36:33 (*) Running Generator Program for timer_1
+
+# 2012.02.01 19:36:34 (*) Running Generator Program for lcd_16207_0
+
+# 2012.02.01 19:36:36 (*) Running Generator Program for led_red
+
+# 2012.02.01 19:36:37 (*) Running Generator Program for led_green
+
+# 2012.02.01 19:36:38 (*) Running Generator Program for button_pio
+
+# 2012.02.01 19:36:39 (*) Running Generator Program for switch_pio
+
+# 2012.02.01 19:36:41 (*) Running Generator Program for SD_DAT
+
+# 2012.02.01 19:36:42 (*) Running Generator Program for SD_CMD
+
+# 2012.02.01 19:36:43 (*) Running Generator Program for SD_CLK
+
+.
+
+
+# 2012.02.01 19:36:44 (*) Running Test Generator Program for sdram_0
+
+# 2012.02.01 19:36:45 (*) Making arbitration and system (top) modules.
+
+# 2012.02.01 19:36:57 (*) Generating Quartus symbol for top level: system_0
+
+# 2012.02.01 19:36:57 (*) Symbol D:/SVN/DE2/DE2/test/SOPC_Q11_1/DE2_NET/system_0.bsf already exists, no need to regenerate
+# 2012.02.01 19:36:57 (*) Creating command-line system-generation script: D:/SVN/DE2/DE2/test/SOPC_Q11_1/DE2_NET/system_0_generation_script
+
+# 2012.02.01 19:36:57 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.02.01 19:36:57 (*) Completed generation for system: system_0.
+# 2012.02.01 19:36:57 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/SVN/DE2/DE2/test/SOPC_Q11_1/DE2_NET/system_0.ptf 
+  System HDL Model : D:/SVN/DE2/DE2/test/SOPC_Q11_1/DE2_NET/system_0.v 
+  System Generation Script : D:/SVN/DE2/DE2/test/SOPC_Q11_1/DE2_NET/system_0_generation_script 
+
+# 2012.02.01 19:36:57 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

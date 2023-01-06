@@ -1,0 +1,9 @@
+
+**** Build of configuration Nios II for project DE2_SD_Card_Audio_1 ****
+
+make all 
+Info: Building ../DE2_SD_Card_Audio_1_bsp/
+make --no-print-directory -C ../DE2_SD_Card_Audio_1_bsp/
+makefile:557: Warning: SOPC File E:/TASKs/DE2_porting/DE2_SD_Card_Audio_on_chip/DE2_SD_Card_Audio/system_0.sopcinfo could not be found.
+[BSP build complete]
+[DE2_SD_Card_Audio_1 build complete]

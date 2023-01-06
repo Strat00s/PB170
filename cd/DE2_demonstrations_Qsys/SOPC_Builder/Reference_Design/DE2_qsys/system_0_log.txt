@@ -1,0 +1,140 @@
+Altera SOPC Builder Version 11.11 Build 216
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.01.30 17:31:04 (*) mk_custom_sdk starting
+# 2012.01.30 17:31:04 (*) Reading project D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_NIOS/system_0.ptf.
+
+# 2012.01.30 17:31:04 (*) Finding all CPUs
+# 2012.01.30 17:31:04 (*) Finding all available components
+# 2012.01.30 17:31:04 (*) Reading D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_NIOS/.sopc_builder/install.ptf
+
+# 2012.01.30 17:31:04 (*) Found 70 components
+
+# 2012.01.30 17:31:05 (*) Finding all peripherals
+
+# 2012.01.30 17:31:05 (*) Finding software components
+
+# 2012.01.30 17:31:07 (*) (Legacy SDK Generation Skipped)
+# 2012.01.30 17:31:07 (*) (All TCL Script Generation Skipped)
+# 2012.01.30 17:31:07 (*) (No Libraries Built)
+# 2012.01.30 17:31:07 (*) (Contents Generation Skipped)
+# 2012.01.30 17:31:07 (*) mk_custom_sdk finishing
+
+# 2012.01.30 17:31:07 (*) Starting generation for system: system_0.
+
+.
+.
+.
+.
+.
+.
+..
+.
+....
+.
+.
+.
+.
+....
+..
+
+# 2012.01.30 17:31:09 (*) Running Generator Program for cpu_0
+
+# 2012.01.30 17:31:10 (*) Starting Nios II generation
+# 2012.01.30 17:31:10 (*)   Checking for plaintext license.
+# 2012.01.30 17:31:14 (*)   Plaintext license not found.
+# 2012.01.30 17:31:14 (*)   Checking for encrypted license (non-evaluation).
+# 2012.01.30 17:31:17 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2012.01.30 17:31:17 (*)   Getting CPU configuration settings
+# 2012.01.30 17:31:17 (*)   Elaborating CPU configuration settings
+# 2012.01.30 17:31:17 (*)   Creating all objects for CPU
+
+# 2012.01.30 17:31:17 (*)     Testbench
+# 2012.01.30 17:31:17 (*)     Instruction decoding
+# 2012.01.30 17:31:17 (*)       Instruction fields
+# 2012.01.30 17:31:17 (*)       Instruction decodes
+# 2012.01.30 17:31:18 (*)       Signals for RTL simulation waveforms
+# 2012.01.30 17:31:18 (*)       Instruction controls
+# 2012.01.30 17:31:18 (*)     Pipeline frontend
+# 2012.01.30 17:31:19 (*)     Pipeline backend
+# 2012.01.30 17:31:22 (*)   Generating HDL from CPU objects
+# 2012.01.30 17:31:25 (*)   Creating encrypted HDL
+
+# 2012.01.30 17:31:27 (*) Done Nios II generation
+
+# 2012.01.30 17:31:27 (*) Running Generator Program for cfi_flash_0
+
+# 2012.01.30 17:31:28 (*) Running Generator Program for sdram_0
+
+# 2012.01.30 17:31:30 (*) Running Generator Program for epcs_controller
+
+# 2012.01.30 17:31:31 (*) Running Generator Program for jtag_uart_0
+
+# 2012.01.30 17:31:32 (*) Running Generator Program for uart_0
+
+# 2012.01.30 17:31:34 (*) Running Generator Program for timer_0
+
+# 2012.01.30 17:31:36 (*) Running Generator Program for timer_1
+
+# 2012.01.30 17:31:37 (*) Running Generator Program for lcd_16207_0
+
+# 2012.01.30 17:31:38 (*) Running Generator Program for led_red
+
+# 2012.01.30 17:31:39 (*) Running Generator Program for led_green
+
+# 2012.01.30 17:31:41 (*) Running Generator Program for button_pio
+
+# 2012.01.30 17:31:42 (*) Running Generator Program for switch_pio
+
+# 2012.01.30 17:31:43 (*) Running Generator Program for SEG7_Display
+
+# 2012.01.30 17:31:46 (*) Running Generator Program for sram_0
+
+# 2012.01.30 17:31:49 (*) Running Generator Program for DM9000A
+
+# 2012.01.30 17:31:52 (*) Running Generator Program for VGA_0
+
+# 2012.01.30 17:31:55 (*) Running Generator Program for Audio_0
+
+# 2012.01.30 17:31:59 (*) Running Generator Program for SD_DAT
+
+# 2012.01.30 17:32:00 (*) Running Generator Program for SD_CMD
+
+# 2012.01.30 17:32:01 (*) Running Generator Program for SD_CLK
+
+# 2012.01.30 17:32:03 (*) Running Generator Program for system_0_clock_0
+
+# 2012.01.30 17:32:04 (*) Running Generator Program for system_0_clock_1
+
+.
+
+
+# 2012.01.30 17:32:06 (*) Running Test Generator Program for sdram_0
+
+# 2012.01.30 17:32:07 (*) Making arbitration and system (top) modules.
+
+
+WARNING:
+Should not have Active_CS_Through_Read_Latency set without setting some Read_Latency. at d:/altera/11.1/quartus//sopc_builder/bin/europa/europa_utils.pm line 248.
+
+# 2012.01.30 17:32:17 (*) Generating Quartus symbol for top level: system_0
+
+# 2012.01.30 17:32:18 (*) Generating Symbol D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_NIOS/system_0.bsf
+
+# 2012.01.30 17:32:18 (*) Creating command-line system-generation script: D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_NIOS/system_0_generation_script
+
+# 2012.01.30 17:32:18 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.01.30 17:32:18 (*) Completed generation for system: system_0.
+# 2012.01.30 17:32:18 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_NIOS/system_0.ptf 
+  System HDL Model : D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_NIOS/system_0.v 
+  System Generation Script : D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_NIOS/system_0_generation_script 
+
+# 2012.01.30 17:32:18 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

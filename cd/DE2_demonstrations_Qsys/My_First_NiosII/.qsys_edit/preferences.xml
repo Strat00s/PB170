@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="203" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="544" />
+   <clocksource preferredWidth="542" />
+   <frequency preferredWidth="534" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Peripherals/Debug and Performance,Library/Peripherals,Library/Memories and Memory Controllers,Library/Memories and Memory Controllers/On-Chip,Library/Processors,Library,Project" />
+ <window width="1928" height="1054" x="-4" y="-4" />
+ <hdlexample language="VERILOG" />
+</preferences>

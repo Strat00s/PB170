@@ -1,0 +1,5 @@
+
+**** Clean-only build of configuration Nios II for project DE2_SD_Card_Audio_bsp ****
+
+make clean 
+[BSP clean complete]

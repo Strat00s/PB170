@@ -1,0 +1,9 @@
+
+**** Build of configuration Nios II for project hello_world ****
+
+make all 
+Info: Building ../hello_world_bsp/
+make --no-print-directory -C ../hello_world_bsp/
+makefile:535: Warning: SOPC File E:/TASKs/DE2_porting/DE2_SD_Card_Audio01/DE2_SD_Card_Audio/system_0.sopcinfo could not be found.
+[BSP build complete]
+[hello_world build complete]

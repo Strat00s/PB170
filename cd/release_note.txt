@@ -1,0 +1,11 @@
+version 2.0.4 (2014.11.14)
+---------------------------
+
+- Update DE2_TV I2C register parameters
+
+
+
+version 2.0.3 (2014.10.09)
+---------------------------
+
+- Update Defualt code demonstration to fix VGA display issue

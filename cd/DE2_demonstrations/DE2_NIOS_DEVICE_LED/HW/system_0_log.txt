@@ -1,0 +1,117 @@
+Altera SOPC Builder Version 11.11 Build 216
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.02.01 15:33:09 (*) mk_custom_sdk starting
+# 2012.02.01 15:33:09 (*) Reading project D:/Project/DE2/test/DE2_NIOS_DEVICE_LED/HW/system_0.ptf.
+
+# 2012.02.01 15:33:10 (*) Finding all CPUs
+# 2012.02.01 15:33:10 (*) Finding all available components
+# 2012.02.01 15:33:10 (*) Reading D:/Project/DE2/test/DE2_NIOS_DEVICE_LED/HW/.sopc_builder/install.ptf
+
+# 2012.02.01 15:33:10 (*) Found 69 components
+
+# 2012.02.01 15:33:11 (*) Finding all peripherals
+
+# 2012.02.01 15:33:11 (*) Finding software components
+
+# 2012.02.01 15:33:11 (*) (Legacy SDK Generation Skipped)
+# 2012.02.01 15:33:11 (*) (All TCL Script Generation Skipped)
+# 2012.02.01 15:33:11 (*) (No Libraries Built)
+# 2012.02.01 15:33:11 (*) (Contents Generation Skipped)
+# 2012.02.01 15:33:11 (*) mk_custom_sdk finishing
+
+# 2012.02.01 15:33:11 (*) Starting generation for system: system_0.
+
+.
+.
+.
+.
+.
+.
+..
+.
+...
+....
+
+# 2012.02.01 15:33:13 (*) Running Generator Program for cpu_0
+
+# 2012.02.01 15:33:15 (*) Starting Nios II generation
+# 2012.02.01 15:33:15 (*)   Checking for plaintext license.
+# 2012.02.01 15:33:33 (*)   Plaintext license not found.
+# 2012.02.01 15:33:33 (*)   Checking for encrypted license (non-evaluation).
+# 2012.02.01 15:33:49 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2012.02.01 15:33:49 (*)   Getting CPU configuration settings
+# 2012.02.01 15:33:49 (*)   Elaborating CPU configuration settings
+# 2012.02.01 15:33:49 (*)   Creating all objects for CPU
+
+# 2012.02.01 15:33:49 (*)     Testbench
+# 2012.02.01 15:33:49 (*)     Instruction decoding
+# 2012.02.01 15:33:49 (*)       Instruction fields
+# 2012.02.01 15:33:49 (*)       Instruction decodes
+# 2012.02.01 15:33:50 (*)       Signals for RTL simulation waveforms
+# 2012.02.01 15:33:50 (*)       Instruction controls
+# 2012.02.01 15:33:50 (*)     Pipeline frontend
+# 2012.02.01 15:33:50 (*)     Pipeline backend
+# 2012.02.01 15:33:54 (*)   Generating HDL from CPU objects
+# 2012.02.01 15:33:57 (*)   Creating encrypted HDL
+
+# 2012.02.01 15:33:59 (*) Done Nios II generation
+
+# 2012.02.01 15:33:59 (*) Running Generator Program for cfi_flash_0
+
+# 2012.02.01 15:34:00 (*) Running Generator Program for sdram_0
+
+# 2012.02.01 15:34:02 (*) Running Generator Program for epcs_controller
+
+# 2012.02.01 15:34:03 (*) Running Generator Program for jtag_uart_0
+
+# 2012.02.01 15:34:05 (*) Running Generator Program for uart_0
+
+# 2012.02.01 15:34:06 (*) Running Generator Program for timer_0
+
+# 2012.02.01 15:34:08 (*) Running Generator Program for timer_1
+
+# 2012.02.01 15:34:09 (*) Running Generator Program for lcd_16207_0
+
+# 2012.02.01 15:34:10 (*) Running Generator Program for led_red
+
+# 2012.02.01 15:34:11 (*) Running Generator Program for led_green
+
+# 2012.02.01 15:34:12 (*) Running Generator Program for button_pio
+
+# 2012.02.01 15:34:14 (*) Running Generator Program for switch_pio
+
+# 2012.02.01 15:34:15 (*) Running Generator Program for SD_DAT
+
+# 2012.02.01 15:34:16 (*) Running Generator Program for SD_CMD
+
+# 2012.02.01 15:34:17 (*) Running Generator Program for SD_CLK
+
+.
+
+
+# 2012.02.01 15:34:19 (*) Running Test Generator Program for sdram_0
+
+# 2012.02.01 15:34:19 (*) Making arbitration and system (top) modules.
+
+# 2012.02.01 15:34:30 (*) Generating Quartus symbol for top level: system_0
+
+# 2012.02.01 15:34:30 (*) Generating Symbol D:/Project/DE2/test/DE2_NIOS_DEVICE_LED/HW/system_0.bsf
+
+# 2012.02.01 15:34:30 (*) Creating command-line system-generation script: D:/Project/DE2/test/DE2_NIOS_DEVICE_LED/HW/system_0_generation_script
+
+# 2012.02.01 15:34:31 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.02.01 15:34:31 (*) Completed generation for system: system_0.
+# 2012.02.01 15:34:31 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/Project/DE2/test/DE2_NIOS_DEVICE_LED/HW/system_0.ptf 
+  System HDL Model : D:/Project/DE2/test/DE2_NIOS_DEVICE_LED/HW/system_0.v 
+  System Generation Script : D:/Project/DE2/test/DE2_NIOS_DEVICE_LED/HW/system_0_generation_script 
+
+# 2012.02.01 15:34:31 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="239" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="387" />
+   <clocksource preferredWidth="386" />
+   <frequency preferredWidth="367" />
+  </columns>
+ </clocktable>
+ <window width="1448" height="878" x="-4" y="-4" />
+ <library
+   expandedCategories="Library/Peripherals,Library,Project,Library/Peripherals/Debug and Performance,Project/Terasic Technologies Inc" />
+ <hdlexample language="VERILOG" />
+</preferences>

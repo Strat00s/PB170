@@ -1,0 +1,2 @@
+2012-1-30 17:54:14 com.altera.utilities.Launcher launch
+пео╒: Launching:D:/altera/11.1/quartus//bin/../sopc_builder/bin/qsys-edit.exe --system-info=DEVICE_FAMILY=Cyclone II --project-dir=D:/Home/User/Desktop/SOPC_Builder/Reference_Design/DE2_qsys/

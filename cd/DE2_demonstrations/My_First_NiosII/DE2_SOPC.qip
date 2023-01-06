@@ -1,0 +1,13 @@
+# clk_50
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# null
+# sysid
+# jtag_uart
+# onchip_memory2
+# led
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID "E0CB4EC7F42900000135412C4B95"
+set_global_assignment -entity "DE2_SOPC" -name IP_TOOL_NAME "sopc"
+set_global_assignment -entity "DE2_SOPC" -name IP_TOOL_VERSION "11.1sp1"
+set_global_assignment -entity "DE2_SOPC" -name IP_TOOL_ENV "sopc"

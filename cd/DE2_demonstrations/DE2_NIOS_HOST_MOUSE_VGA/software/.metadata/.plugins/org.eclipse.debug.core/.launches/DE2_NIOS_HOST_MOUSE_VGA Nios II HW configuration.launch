@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.nj.launch.HWLaunch">
+<stringAttribute key="com.altera.nj.launch.REMOTE_PORT" value="1240"/>
+<stringAttribute key="org.eclipse.cdt.launch.GLOBAL_VARIABLES" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;globalVariableList/&gt;&#13;&#10;"/>
+<booleanAttribute key="com.altera.nj.launch.VALIDATE_HW_SYSID" value="true"/>
+<intAttribute key="com.altera.nj.launch.DEBUG_TARGET" value="1"/>
+<booleanAttribute key="com.altera.nj.launch.USE_ALTERA_GENERATED_GDB_SCRIPT" value="true"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value="D:\SVN\DE2\DE2\test\SOPC_Q11_1\DE2_NIOS_HOST_MOUSE_VGA\software\DE2_NIOS_HOST_MOUSE_VGA_syslib\Debug\system_description\generated.gdb"/>
+<stringAttribute key="com.altera.nj.launch.PTF_CPU" value="cpu_0"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.nj.debug.core.NJGDBDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/DE2_NIOS_HOST_MOUSE_VGA.elf"/>
+<booleanAttribute key="com.altera.nj.launch.LAUNCH_FS2" value="false"/>
+<stringAttribute key="com.altera.nj.launch.PTF_NAME" value="D:\SVN\DE2\DE2\test\SOPC_Q11_1\DE2_NIOS_HOST_MOUSE_VGA\system_0.ptf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="DE2_NIOS_HOST_MOUSE_VGA"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_REGISTER_GROUPS" value=""/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList/&gt;&#13;&#10;"/>
+</launchConfiguration>

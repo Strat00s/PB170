@@ -1,0 +1,5 @@
+
+**** Clean-only build of configuration Nios II for project DE2_SD_Card_Audio_0 ****
+
+make clean 
+[DE2_SD_Card_Audio_0 clean complete]

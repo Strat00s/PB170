@@ -1,0 +1,1473 @@
+!SESSION 2011-08-09 14:16:53.453 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 14:24:00.312
+!MESSAGE Indexed 'usb_host_vga_bsp' (94 sources, 73 headers) in 1.48 sec: 1,664 declarations; 5,562 references; 141 unresolved inclusions; 5 syntax errors; 280 unresolved names (3.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 14:24:03.796
+!MESSAGE Indexed 'usb_host_vga' (0 sources, 13 headers) in 0.02 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-08-09 14:48:45.312 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 14:49:32.078
+!MESSAGE Indexed 'usb_host_vga_bsp' (94 sources, 73 headers) in 1.34 sec: 1,664 declarations; 5,562 references; 141 unresolved inclusions; 5 syntax errors; 280 unresolved names (3.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 14:49:34.062
+!MESSAGE Indexed 'usb_host_vga' (0 sources, 13 headers) in 0.02 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:28:25.843
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:28:28.171
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:28:32.671
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:28:32.671
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:36:51.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:36:54.078
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:36:58.281
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:36:58.281
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:45:26.671
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:45:29.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:45:33.281
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:45:33.281
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:45:50.109
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:45:52.453
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:45:56.656
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:45:56.656
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:46:47.062
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:46:49.390
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:46:53.593
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:46:53.593
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:47:34.343
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:47:36.671
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:47:40.859
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:47:40.859
+!MESSAGE Downloading ELF Process failed
+!SESSION 2011-08-09 15:48:56.765 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 15:49:37.625
+!MESSAGE Indexed 'usb_host_vga_bsp' (94 sources, 73 headers) in 1.56 sec: 1,664 declarations; 5,562 references; 141 unresolved inclusions; 5 syntax errors; 280 unresolved names (3.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 15:49:39.453
+!MESSAGE Indexed 'usb_host_vga' (0 sources, 13 headers) in 0.00 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:51:59.265
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:52:01.500
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:52:01.578
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:52:05.734
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:52:05.734
+!MESSAGE Downloading ELF Process failed
+!SESSION 2011-08-09 15:54:26.734 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:54:51.828
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:54:54.046
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:54:54.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:54:57.421
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:54:57.421
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:55:54.187
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:55:56.406
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:55:56.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:55:59.812
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:55:59.812
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:56:20.312
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:56:22.531
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:56:22.609
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:56:25.890
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:56:25.890
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:56:41.203
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:56:43.421
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:56:43.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:56:46.750
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:56:46.750
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:56:57.187
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:56:59.437
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:56:59.515
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:57:02.812
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:57:02.812
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:57:16.718
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:57:18.921
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 15:57:18.984
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:57:23.140
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 15:57:23.140
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:14:18.375
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:14:20.593
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:14:20.671
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:14:24.828
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:14:24.828
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:14:40.890
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:14:43.109
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:14:43.187
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:14:47.343
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/usb_host_vga/usb_host_vga.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:14:47.343
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 16:18:08.781
+!MESSAGE Indexed 'hello_world_bsp' (94 sources, 99 headers) in 1.81 sec: 2,234 declarations; 6,054 references; 133 unresolved inclusions; 30 syntax errors; 264 unresolved names (3.09%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 16:18:10.343
+!MESSAGE Indexed 'hello_world' (1 sources, 13 headers) in 0.03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:18:53.109
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:18:55.437
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:18:58.656
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:18:58.656
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 16:48:54.796
+!MESSAGE Indexed 'hello_world_bsp' (95 sources, 75 headers) in 0.88 sec: 1,665 declarations; 5,570 references; 141 unresolved inclusions; 5 syntax errors; 280 unresolved names (3.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-08-09 16:48:57.125
+!MESSAGE Indexed 'hello_world' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:49:50.078
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:49:52.421
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:49:55.625
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:49:55.640
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:53:15.656
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:53:18.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:53:21.218
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:53:21.218
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:54:34.515
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 16:54:36.843
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:54:40.078
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 16:54:40.078
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:01:17.265
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:01:20.421
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:01:20.437
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.ui 4 4 2011-08-09 17:29:56.796
+!MESSAGE Error
+!STACK 0
+java.io.IOException: Cannot run program "objdump": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:116)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:108)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:63)
+	at org.eclipse.cdt.utils.Objdump.getOutput(Objdump.java:64)
+	at org.eclipse.cdt.internal.ui.editor.DefaultBinaryFileEditor$BinaryFileEditorInput.getStorage(DefaultBinaryFileEditor.java:119)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.getPersistedEncoding(StorageDocumentProvider.java:495)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.getEncoding(StorageDocumentProvider.java:413)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createDocument(StorageDocumentProvider.java:229)
+	at org.eclipse.cdt.internal.ui.editor.DefaultBinaryFileEditor$BinaryFileDocumentProvider.createDocument(DefaultBinaryFileEditor.java:157)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createElementInfo(StorageDocumentProvider.java:261)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.connect(AbstractDocumentProvider.java:400)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4056)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3043)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2600)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3061)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3088)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:798)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2863)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2768)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2760)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2711)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2707)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2691)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2682)
+	at org.eclipse.cdt.internal.ui.util.EditorUtility.openInEditor(EditorUtility.java:254)
+	at org.eclipse.cdt.internal.ui.util.EditorUtility.openInEditor(EditorUtility.java:157)
+	at org.eclipse.cdt.internal.ui.util.EditorUtility.openInEditor(EditorUtility.java:141)
+	at org.eclipse.cdt.internal.ui.navigator.OpenCElementAction.run(OpenCElementAction.java:52)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:221)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:843)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1131)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1235)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:264)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:258)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:298)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:33:50.921
+!MESSAGE Cannot initialize the Nios II Console view for use. Byte stream service may still be open by another process like 'nios2-terminal'.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:34:08.171
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:34:11.453
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:34:11.453
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:34:34.625
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:34:36.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:34:40.218
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:34:40.218
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:34:58.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:35:00.343
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:35:03.546
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:35:03.562
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:51:41.875
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:51:44.203
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:51:47.468
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:51:47.468
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:53:23.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:53:26.796
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:53:26.859
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:53:30.187
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 17:53:30.187
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:56:28.421
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:56:30.765
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:57:51.625
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:57:53.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:58:42.546
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:58:44.984
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 17:58:47.312
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:01:18.718
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:01:21.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:01:23.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:08.171
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:10.609
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:12.890
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:14.062
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:15.250
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 18:02:19.406
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-09 18:02:19.406
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:20.078
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:22.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:24.843
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:46.500
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:48.921
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:02:51.265
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:03:44.140
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-09 18:03:46.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+!SESSION 2011-08-10 09:28:01.046 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:29:36.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312882777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:29:39.859
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312882777 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:32:05.750
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312882777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:32:09.203
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312882777 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:32:36.953
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:32:40.703
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312882777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:32:44.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312882777 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:40:02.296
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:40:06.015
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312882777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 09:40:09.437
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312882777 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:06:52.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312941551]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:06:56.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312941551 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:10:03.890
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:10:07.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312941551]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:10:11.343
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312941551 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:10:17.781
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1b02108, --id=0x0, --timestamp=1312941551, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:10:17.781
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:13:00.234
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312941551]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:13:03.625
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312941551 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:13:09.578
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1b02108, --id=0x0, --timestamp=1312941551, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:13:09.578
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:14:55.843
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1b02108 --id=0x0 --timestamp=1312941551]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:14:59.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1b02108 --id=0x0 --timestamp=1312941551 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:15:56.515
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:17:26.343
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:17:30.203
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1b02108] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:17:30.265
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:17:34.781
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1b02108, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 10:17:34.781
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:29:42.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:29:45.515
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:30:25.109
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:30:28.843
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:30:31.812
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:31:23.375
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:31:27.078
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:31:30.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:32:55.171
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:32:58.843
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:33:01.906
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:37:01.859
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:37:05.703
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:37:08.750
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:47:07.468
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:47:11.250
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:47:14.187
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:54:38.203
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 10:54:41.171
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 11:03:27.859
+!MESSAGE Cannot initialize the Nios II Console view for use. Byte stream service may still be open by another process like 'nios2-terminal'.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:04:13.406
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:04:16.359
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:11:21.078
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:11:24.875
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:11:27.906
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:12:43.375
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:12:46.609
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:27:28.796
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:27:32.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:27:35.578
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:29:54.562
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:29:58.375
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:30:01.343
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 11:33:31.015
+!MESSAGE Cannot initialize the Nios II Console view for use. Byte stream service may still be open by another process like 'nios2-terminal'.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:34:00.875
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:34:03.875
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:36:26.140
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:36:29.953
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:36:33.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:38:34.718
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:38:37.750
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:40:17.937
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:40:21.718
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:40:24.703
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:43:58.187
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:44:01.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:44:04.984
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:45:00.875
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:45:03.890
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:46:32.328
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:46:35.281
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:47:45.015
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:47:48.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:48:50.859
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:48:53.859
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:49:47.625
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:49:50.640
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:55:56.140
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 11:55:59.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 12:01:41.437
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 12:01:46.203
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 12:01:50.062
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1b02108] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 12:01:50.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 12:01:54.656
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1b02108, /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2011-08-10 12:01:54.656
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 13:39:46.984
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 13:39:50.015
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 14:03:13.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 14:03:16.468
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 14:04:29.781
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 14:04:33.515
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1b02108]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2011-08-10 14:04:36.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1b02108 /cygdrive/e/TASKs/DE2_porting/DE2_NIOS_HOST_MOUSE_VGA/software/hello_world/hello_world.elf]
+!SESSION 2012-01-30 17:13:12.453 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.core 4 0 2012-01-30 17:28:00.609
+!MESSAGE Error executing 'nios2-bsp-generate-files --bsp-dir . --settings settings.bsp', unexpected return code 1.
+
+Error message:
+
+SEVERE: File not found: E:\TASKs\DE2_porting\DE2_NIOS_HOST_MOUSE_VGA\system_0.sopcinfo
+SEVERE: File not found: E:\TASKs\DE2_porting\DE2_NIOS_HOST_MOUSE_VGA\system_0.sopcinfo
+SEVERE: nios2-bsp-generate-files failed.
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-30 17:30:19.203
+!MESSAGE Indexed 'hello_world_back' (0 sources, 51 headers) in 1.25 sec: 1,297 declarations; 1,334 references; 0 unresolved inclusions; 2 syntax errors; 6 unresolved names (0.23%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-30 17:30:28.828
+!MESSAGE Indexed 'hello_world_bsp_back' (0 sources, 51 headers) in 0.30 sec: 1,297 declarations; 1,334 references; 0 unresolved inclusions; 2 syntax errors; 6 unresolved names (0.23%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-30 17:32:37.468
+!MESSAGE Indexed 'DE2_NIOS_HOST_MOUSE_VGA_bsp' (95 sources, 75 headers) in 0.92 sec: 1,665 declarations; 5,570 references; 141 unresolved inclusions; 5 syntax errors; 280 unresolved names (3.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-30 17:32:44.765
+!MESSAGE Indexed 'DE2_NIOS_HOST_MOUSE_VGA' (1 sources, 13 headers) in 0.05 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2012-01-30 17:43:07.328
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:799)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1944)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+Contains: Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2012-01-30 17:43:07.328
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2012-01-30 17:43:07.328
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1944)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:07.328
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:07.328
+!MESSAGE Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2012-01-30 17:43:07.328
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back'.
+
+!ENTRY org.eclipse.core.resources 4 273 2012-01-30 17:43:07.328
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2012-01-30 17:43:07.328
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1944)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 2 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:07.328
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:07.328
+!MESSAGE Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2012-01-30 17:43:07.328
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2012-01-30 17:43:51.593
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:799)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1944)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+Contains: Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2012-01-30 17:43:51.593
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2012-01-30 17:43:51.593
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1944)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:51.609
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:51.609
+!MESSAGE Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2012-01-30 17:43:51.609
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back'.
+
+!ENTRY org.eclipse.core.resources 4 273 2012-01-30 17:43:51.609
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2012-01-30 17:43:51.609
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1944)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 2 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:51.609
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2012-01-30 17:43:51.609
+!MESSAGE Could not delete: D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back\Makefile.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2012-01-30 17:43:51.609
+!MESSAGE Could not delete 'D:\SVN\DE2\DE2\test\Qsys_Q11_0\DE2_NIOS_HOST_MOUSE_VGA\software\hello_world_bsp_back'.
+!SESSION 2012-02-20 19:59:44.531 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data D:\SVN\DE2\DE2\test\Qsys_Q11_1\DE2_NIOS_HOST_MOUSE_VGA\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-02-20 20:00:16.531
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 12156 milliseconds.
+!SESSION 2012-02-20 20:04:58.515 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.osgi 4 0 2012-02-20 20:05:10.625
+!MESSAGE An error occurred while automatically activating bundle com.altera.sbtgui.launch (293).
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.altera.sbtgui.launch.Activator.start() of bundle com.altera.sbtgui.launch.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:412)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:352)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:347)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.shutdownSystemConsole(SystemConsoleModel.java:201)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.initSystemConsole(SystemConsoleModel.java:114)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.setSystemConsole(SystemConsoleModel.java:813)
+	at com.altera.sbtgui.launch.Activator.start(Activator.java:94)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 29 more
+Root exception:
+java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:412)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:352)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:347)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.shutdownSystemConsole(SystemConsoleModel.java:201)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.initSystemConsole(SystemConsoleModel.java:114)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.setSystemConsole(SystemConsoleModel.java:813)
+	at com.altera.sbtgui.launch.Activator.start(Activator.java:94)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2012-02-20 20:05:10.640
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in com.altera.sbtgui.launch was unable to load class com.altera.sbtgui.launch.Startup.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.altera.sbtgui.launch (293).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 11 more
+Caused by: org.osgi.framework.BundleException: Exception in com.altera.sbtgui.launch.Activator.start() of bundle com.altera.sbtgui.launch.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 23 more
+Caused by: java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:412)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:352)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:347)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.shutdownSystemConsole(SystemConsoleModel.java:201)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.initSystemConsole(SystemConsoleModel.java:114)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.setSystemConsole(SystemConsoleModel.java:813)
+	at com.altera.sbtgui.launch.Activator.start(Activator.java:94)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 29 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2012-02-20 20:05:10.640
+!MESSAGE Plug-in com.altera.sbtgui.launch was unable to load class com.altera.sbtgui.launch.Startup.
+!STACK 0
+org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.altera.sbtgui.launch (293).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.osgi.framework.BundleException: Exception in com.altera.sbtgui.launch.Activator.start() of bundle com.altera.sbtgui.launch.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 23 more
+Caused by: java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:412)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:352)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:347)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.shutdownSystemConsole(SystemConsoleModel.java:201)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.initSystemConsole(SystemConsoleModel.java:114)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.setSystemConsole(SystemConsoleModel.java:813)
+	at com.altera.sbtgui.launch.Activator.start(Activator.java:94)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 29 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2012-02-20 20:05:10.640
+!MESSAGE Plug-in com.altera.sbtgui.launch was unable to load class com.altera.sbtgui.launch.Startup.
+!STACK 0
+org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.altera.sbtgui.launch (293).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.osgi.framework.BundleException: Exception in com.altera.sbtgui.launch.Activator.start() of bundle com.altera.sbtgui.launch.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 23 more
+Caused by: java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:412)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:352)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:347)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.shutdownSystemConsole(SystemConsoleModel.java:201)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.initSystemConsole(SystemConsoleModel.java:114)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.setSystemConsole(SystemConsoleModel.java:813)
+	at com.altera.sbtgui.launch.Activator.start(Activator.java:94)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 29 more
+
+!ENTRY org.eclipse.ui 4 4 2012-02-20 20:05:10.640
+!MESSAGE Unhandled Exception
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-02-20 20:05:10.656
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in com.altera.sbtgui.launch was unable to load class com.altera.sbtgui.launch.Startup.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.altera.sbtgui.launch (293).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 11 more
+Caused by: org.osgi.framework.BundleException: Exception in com.altera.sbtgui.launch.Activator.start() of bundle com.altera.sbtgui.launch.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 23 more
+Caused by: java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:412)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:352)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:347)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.shutdownSystemConsole(SystemConsoleModel.java:201)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.initSystemConsole(SystemConsoleModel.java:114)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.setSystemConsole(SystemConsoleModel.java:813)
+	at com.altera.sbtgui.launch.Activator.start(Activator.java:94)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 29 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2012-02-20 20:05:10.656
+!MESSAGE Plug-in com.altera.sbtgui.launch was unable to load class com.altera.sbtgui.launch.Startup.
+!STACK 0
+org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.altera.sbtgui.launch (293).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.osgi.framework.BundleException: Exception in com.altera.sbtgui.launch.Activator.start() of bundle com.altera.sbtgui.launch.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 23 more
+Caused by: java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:412)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:352)
+	at com.altera.systemconsole.internal.core.SystemExecutor.waitForCurrentTasksToComplete(SystemExecutor.java:347)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.shutdownSystemConsole(SystemConsoleModel.java:201)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.initSystemConsole(SystemConsoleModel.java:114)
+	at com.altera.embeddedsw.flash.model.internal.utils.SystemConsoleModel.setSystemConsole(SystemConsoleModel.java:813)
+	at com.altera.sbtgui.launch.Activator.start(Activator.java:94)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 29 more

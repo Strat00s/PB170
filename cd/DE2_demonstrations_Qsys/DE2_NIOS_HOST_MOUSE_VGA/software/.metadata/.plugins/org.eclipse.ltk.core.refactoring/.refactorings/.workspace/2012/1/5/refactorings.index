@@ -1,0 +1,5 @@
+1327915817625	Rename resource 'hello_world'
+1327915828484	Rename resource 'hello_world_bsp'
+1327916295312	Delete resource 'DE2_NIOS_HOST_MOUSE_VGA/hello_world.c'
+1327916576843	Delete resource 'hello_world_back'
+1327916656687	Delete resource 'hello_world_bsp_back'

@@ -1,0 +1,26 @@
+Warning (10037): Verilog HDL or VHDL warning at cpu_0.v(1996): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu_0.v(1998): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu_0.v(2154): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu_0.v(3073): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at epcs_controller.v(401): conditional expression evaluates to a constant
+Warning (10273): Verilog HDL warning at lcd_16207_0.v(61): extended using "x" or "z"
+Warning (10037): Verilog HDL or VHDL warning at sdram_0.v(316): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram_0.v(326): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram_0.v(336): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram_0.v(680): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(98): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(107): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(116): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(245): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(254): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(263): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(272): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_0.v(281): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(98): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(107): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(116): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(245): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(254): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(263): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(272): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at system_0_clock_1.v(281): conditional expression evaluates to a constant
