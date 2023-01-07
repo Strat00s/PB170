@@ -1,6 +1,6 @@
 //using all RED LEDS (LEDR)
 
-module DE2_Default (input CLOCK_50, output [17:0] LEDR);
+module DE2_Default (input CLOCK_50, input [3:0] KEY, input [17:0] SW, output [17:0] LEDR);
     /*---(Constants)---*/
     parameter MAIN_FREQ = 50000000; //CLOCK_50 frequency
     
@@ -27,16 +27,19 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
     wire [17:0]  led_out;       //output from PWM to LEDs
     reg  [9:0]   dim_time;       //LED dimming time in ms
     reg  [9:0]   delay;         //delay for switching between LEDs in ms
+    //reg  [4:0]   led_cnt;
+
+    reg [31:0] button_timer;
 
     //for loop var
     reg [4:0] i;
+    reg [4:0] j;
 
 
     //setup
     initial begin
         pwm_timer <= 0;
         pwm_clk   <= 0;
-
 
         leds[0]      <= 0;
         leds[1]      <= 0;
@@ -57,43 +60,75 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
         leds[16]     <= 0;
         leds[17]     <= 0;
         switch_timer <= 0;
-        selected_led <= 0;
-        direction    <= 0;
+        selected_led  = 0;
+        direction     = 0;
         dim_timer    <= 0;
         dim_time     <= 300;
         delay        <= 50;
+
+        button_timer <= 0;
     end
 
     //"main"
     always @(posedge CLOCK_50) begin
+        //reset when all buttons are pressed
+        if (KEY == 4'b0000) begin
+            pwm_timer <= 0;
+            pwm_clk   <= 0;
+
+            leds[0]      <= 0;
+            leds[1]      <= 0;
+            leds[2]      <= 0;
+            leds[3]      <= 0;
+            leds[4]      <= 0;
+            leds[5]      <= 0;
+            leds[6]      <= 0;
+            leds[7]      <= 0;
+            leds[8]      <= 0;
+            leds[9]      <= 0;
+            leds[10]     <= 0;
+            leds[11]     <= 0;
+            leds[12]     <= 0;
+            leds[13]     <= 0;
+            leds[14]     <= 0;
+            leds[15]     <= 0;
+            leds[16]     <= 0;
+            leds[17]     <= 0;
+            switch_timer <= 0;
+            selected_led  = 0;
+            direction     = 0;
+            dim_timer    <= 0;
+            dim_time     <= 300;
+            delay        <= 50;
+
+            button_timer <= 0;
+        end
+
         //generate PWM clock
         //desired frequency * samples * 2; *2 as we are flipping the state
-        if (pwm_timer == MAIN_FREQ / (PWM_FREQ * PWM_S_CNT * 2)) begin
+        if (pwm_timer >= MAIN_FREQ / (PWM_FREQ * PWM_S_CNT * 2)) begin
             pwm_timer <= 0; //reset timer
             pwm_clk <= ~pwm_clk;    //toggle clock
         end
         else
             pwm_timer <= pwm_timer + 1;
 
-    
         //switch between LEDs
-        if (switch_timer == MAIN_FREQ / (1000 / delay)) begin //delay - delay in ms before changing to next LED
+        if (switch_timer >= MAIN_FREQ / (1000 / delay)) begin //delay - delay in ms before changing to next LED
             switch_timer <= 0;  //reset timer
 
-            //change direction at the ends
-            if (selected_led == 0)
-                direction = 0;
-            if (selected_led == LED_CNT - 1)
-                direction = 1;
-
-            selected_led = direction ? selected_led - 1 : selected_led + 1;
+            //flip direction at the ends
+            if (selected_led == 0 || selected_led == LED_CNT - 1)
+                direction = ~direction;
+            
+            selected_led = direction ? selected_led + 1 : selected_led - 1;
             leds[selected_led] <= MAX_BRIGHTNESS;   //set max brighntess for current LED
         end
         else
             switch_timer <= switch_timer + 1;   //increment timer
 
         //continuously decrease the LED brightness
-        if (dim_timer == MAIN_FREQ / ((1000 * PWM_S_CNT) / dim_time)) begin //dim_time - how long in ms should the LEDs be on
+        if (dim_timer >= MAIN_FREQ / ((1000 * PWM_S_CNT) / dim_time)) begin //dim_time - how long in ms should the LEDs be on
             dim_timer <= 0; //reset timer
 
             //go through all LEDs and decrease their brightness
@@ -104,6 +139,21 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
         end
         else
             dim_timer <= dim_timer + 1; //increment timer
+        
+        //cheap and easy buttons
+        if (button_timer >= MAIN_FREQ / 10) begin
+            button_timer <= 0;
+            if (!KEY[0] && delay < 1000)
+                delay <= delay + 5;
+            else if (!KEY[1] && delay > 0)
+                delay <= delay - 5;
+            else if (!KEY[2] && dim_time < 1000)
+                dim_time <= dim_time + 10;
+            else if (!KEY[3] && dim_time > 0)
+                dim_time <= dim_time - 10;
+        end
+        else
+            button_timer <= button_timer + 1;
     end
 
 
@@ -200,5 +250,5 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
     );
 
 
-    assign	LEDR  = led_out;    //finally, set LEDs to the output of the PWMs
+    assign	LEDR  = led_out & ~SW;    //finally, set LEDs to the output of the PWMs
 endmodule
