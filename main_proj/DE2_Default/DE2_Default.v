@@ -16,6 +16,7 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
     //reg [31:0] t_cnt;
     wire state;
 
+    reg [7:0] on_time;
     reg [31:0] dim_cnt;
 
 
@@ -23,7 +24,7 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
     initial begin
         pwm_d_cnt <= 0;
         pwm_clk   <= 0;
-        on_time   <= 10;
+        on_time   <= 0;
 
         dim_cnt <= 0;
     end
@@ -38,14 +39,18 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
         end
         else
             pwm_d_cnt <= pwm_d_cnt + 1;
-        
+
+
         //gradually change PWM
         if (dim_cnt == MAIN_FREQ / 100) begin
             dim_cnt <= 0;
-            
+            on_time <= on_time + 1;
         end
         else
             dim_cnt = dim_cnt + 1;
+        
+        if (on_time >= 200)
+            on_time <= 0;
     
 
     end
