@@ -1,34 +1,40 @@
 //using all RED LEDS (LEDR)
 
 module DE2_Default (input CLOCK_50, output [17:0] LEDR);
-    //constants
-    parameter MAIN_FREQ   = 50000000;   //CLOCK_50 frequency
-    parameter PWM_FREQ    =     1000;   //base PWM frequency
-    parameter PWM_S_CNT   =      200;   //sample count ("precision")
+    /*---(Constants)---*/
+    parameter MAIN_FREQ = 50000000; //CLOCK_50 frequency
+    
+    //PWM
+    parameter PWM_FREQ  = 1000; //base PWM frequency
+    parameter PWM_S_CNT = 200;  //sample count ("precision")
 
-    //pwm vars
-    reg [31:0] pwm_d_cnt;   //pwm division counter
+    //LEDs
+    parameter LED_CNT        = 18;  //number of LEDs
+    parameter MAX_BRIGHTNESS = 200; //maximal brighntess based on PWM sample count
+
+
+    /*---(Variables)---*/
+    //PWM
+    reg [31:0] pwm_timer;   //pwm division counter
     reg pwm_clk;            //pwm clock output
 
-    //reg [31:0] t_cnt;
-    wire state;
+    //LEDs
+    reg          direction;     //switching firection
+    reg  [31:0]  switch_timer;  //timer for switching to next LED
+    reg  [7:0]   leds[17:0];    //LED "duty cycle" array
+    reg  [4:0]   selected_led;
+    reg  [31:0]  dim_timer;     //dimming timer
+    wire [17:0]  led_out;       //output from PWM to LEDs
+    reg  [9:0]   dim_time;       //LED dimming time in ms
+    reg  [9:0]   delay;         //delay for switching between LEDs in ms
 
-    //reg [7:0] on_time;
-    reg [31:0] switch_cnt;  //led change counter
-    //LED duty cycle array
-    reg [7:0] leds[17:0];   //array of bytes 
-    reg direction;          //led firection
-    reg [17:0] led_selector;    //led selection array
-    wire [17:0] led_out; //led output
-    reg [31:0]  dim_cnt; //led dim counter
-
-
-
+    //for loop var
     reg [4:0] i;
+
 
     //setup
     initial begin
-        pwm_d_cnt <= 0;
+        pwm_timer <= 0;
         pwm_clk   <= 0;
 
 
@@ -50,64 +56,58 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
         leds[15]     <= 0;
         leds[16]     <= 0;
         leds[17]     <= 0;
-        switch_cnt   <= 0;
-        led_selector <= 1;
+        switch_timer <= 0;
+        selected_led <= 0;
         direction    <= 0;
-        //led_out      <= 0;
-        dim_cnt      <= 0;
+        dim_timer    <= 0;
+        dim_time     <= 300;
+        delay        <= 50;
     end
 
     //"main"
     always @(posedge CLOCK_50) begin
         //generate PWM clock
         //desired frequency * samples * 2; *2 as we are flipping the state
-        if (pwm_d_cnt == MAIN_FREQ / (PWM_FREQ * PWM_S_CNT * 2)) begin
-            pwm_d_cnt <= 0;
-            pwm_clk <= ~pwm_clk;
+        if (pwm_timer == MAIN_FREQ / (PWM_FREQ * PWM_S_CNT * 2)) begin
+            pwm_timer <= 0; //reset timer
+            pwm_clk <= ~pwm_clk;    //toggle clock
         end
         else
-            pwm_d_cnt <= pwm_d_cnt + 1;
+            pwm_timer <= pwm_timer + 1;
 
-
-        ////gradually change PWM
-        //if (switch_cnt == MAIN_FREQ / 100) begin
-        //    switch_cnt <= 0;
-        //    on_time <= on_time + 1;
-        //end
-        //else
-        //    switch_cnt = switch_cnt + 1;
-        //
-        //if (on_time >= 200)
-        //    on_time <= 0;
     
         //switch between LEDs
-        if (switch_cnt == MAIN_FREQ / 20) begin
-            switch_cnt <= 0;
+        if (switch_timer == MAIN_FREQ / (1000 / delay)) begin //delay - delay in ms before changing to next LED
+            switch_timer <= 0;  //reset timer
 
-            if (led_selector == 0)
+            //change direction at the ends
+            if (selected_led == 0)
                 direction = 0;
-            if (led_selector == 17)
+            if (selected_led == LED_CNT - 1)
                 direction = 1;
-            led_selector = direction ? led_selector - 1 : led_selector + 1;
-            leds[led_selector] <= 200;   //set max brighntess for current LED
+
+            selected_led = direction ? selected_led - 1 : selected_led + 1;
+            leds[selected_led] <= MAX_BRIGHTNESS;   //set max brighntess for current LED
         end
         else
-            switch_cnt = switch_cnt + 1;
+            switch_timer <= switch_timer + 1;   //increment timer
 
         //continuously decrease the LED brightness
-        if (dim_cnt == MAIN_FREQ / 400) begin
-            dim_cnt <= 0;
-            for (i = 0; i < 18; i = i + 1) begin
+        if (dim_timer == MAIN_FREQ / ((1000 * PWM_S_CNT) / dim_time)) begin //dim_time - how long in ms should the LEDs be on
+            dim_timer <= 0; //reset timer
+
+            //go through all LEDs and decrease their brightness
+            for (i = 0; i < LED_CNT; i = i + 1) begin
                 if (leds[i] > 0)
                     leds[i] <= leds[i] - 1;
             end
         end
         else
-            dim_cnt <= dim_cnt + 1;
+            dim_timer <= dim_timer + 1; //increment timer
     end
 
 
-
+    //each LED has its own PWM controller
     PWM pwm0 (
         .clk(pwm_clk),
         .on_time(leds[0]),
@@ -199,5 +199,6 @@ module DE2_Default (input CLOCK_50, output [17:0] LEDR);
         .out(led_out[17])
     );
 
-    assign	LEDR  = led_out;
+
+    assign	LEDR  = led_out;    //finally, set LEDs to the output of the PWMs
 endmodule
