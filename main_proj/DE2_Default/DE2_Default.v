@@ -1,114 +1,92 @@
+// ============================================================================
+// Copyright (c) 2012 by Terasic Technologies Inc.
+// ============================================================================
+//
+// Permission:
+//
+//   Terasic grants permission to use and modify this code for use
+//   in synthesis for all Terasic Development Boards and Altera Development 
+//   Kits made by Terasic.  Other use of this code, including the selling 
+//   ,duplication, or modification of any portion is strictly prohibited.
+//
+// Disclaimer:
+//
+//   This VHDL/Verilog or C/C++ source code is intended as a design reference
+//   which illustrates how these types of functions can be implemented.
+//   It is the user's responsibility to verify their design for
+//   consistency and functionality through the use of formal
+//   verification methods.  Terasic provides no warranty regarding the use 
+//   or functionality of this code.
+//
+// ============================================================================
+//           
+//  Terasic Technologies Inc
+//  9F., No.176, Sec.2, Gongdao 5th Rd, East Dist, Hsinchu City, 30070. Taiwan
+//
+//
+//
+//                     web: http://www.terasic.com/
+//                     email: support@terasic.com
+//
+// ============================================================================
+//
+// Major Functions:	DE2 Default Bitstream
+//
+// ============================================================================
+//
+// Revision History :
+// ============================================================================
+//   Ver  :| Author            :| Mod. Date :| Changes Made:
+//   V1.0 :| Johnny Chen       :| 05/08/19  :|      Initial Revision
+//   V1.1 :| Sean Peng         :| 05/09/30  :|      Changed CLOCK, SW, LEDG/R
+//                                                  according to Zvonko's requests.
+//   V1.2 :| Johnny Chen       :| 05/11/16  :|      Add to FLASH Address FL_ADDR[21:20]
+//   V1.3 :| Johnny Chen       :| 05/12/12  :|      Fixed VGA_Audio_PLL Initial Sequence.
+//   V1.4 :| Johnny Chen       :| 06/07/12  :|      Modify I2C_AV_Config LUT Data.
+//   V1.5 :| Eko    Yan        :| 12/01/30  :|      Update to version 11.1 sp1.
+// ============================================================================
+
+
 module DE2_Default
-    (
-        //Clock Input
-        CLOCK_50,        //    50 MHz default clock
-        //Push Button
-        //KEY,                //    Pushbutton[3:0]
-        //DPDT Switch
-        //SW,                //    Toggle Switch[17:0]
-        //7-SEG Dispaly
-        //HEX0,                //    Seven Segment Digit 0
-        //HEX1,                //    Seven Segment Digit 1
-        //HEX2,                //    Seven Segment Digit 2
-        //HEX3,                //    Seven Segment Digit 3
-        //HEX4,                //    Seven Segment Digit 4
-        //HEX5,                //    Seven Segment Digit 5
-        //HEX6,                //    Seven Segment Digit 6
-        //HEX7,                //    Seven Segment Digit 7
-        //LED
-        //LEDG,                //    LED Green[8:0]
-        LEDR,                //    LED Red[17:0]
-        //LCD Module 16X2
-        //LCD_ON,            //    LCD Power ON/OFF
-        //LCD_BLON,        //    LCD Back Light ON/OFF
-        //LCD_RW,            //    LCD Read/Write Select, 0 = Write, 1 = Read
-        //LCD_EN,            //    LCD Enable
-        //LCD_RS,            //    LCD Command/Data Select, 0 = Command, 1 = Data
-        //LCD_DATA,        //    LCD Data bus 8 bits
-    );
-
-    //Clock Input
-    //input               CLOCK_50;                //    50 MHz
-    //Push Button
-    //input      [3:0]    KEY;                    //    Pushbutton[3:0]
-    //DPDT Switch
-    //input      [17:0]    SW;                        //    Toggle Switch[17:0]
-    //7-SEG Dispaly
-    //output    [6:0]    HEX0;                    //    Seven Segment Digit 0
-    //output    [6:0]    HEX1;                    //    Seven Segment Digit 1
-    //output    [6:0]    HEX2;                    //    Seven Segment Digit 2
-    //output    [6:0]    HEX3;                    //    Seven Segment Digit 3
-    //output    [6:0]    HEX4;                    //    Seven Segment Digit 4
-    //output    [6:0]    HEX5;                    //    Seven Segment Digit 5
-    //output    [6:0]    HEX6;                    //    Seven Segment Digit 6
-    //output    [6:0]    HEX7;                    //    Seven Segment Digit 7
-    //LED
-    //output    [8:0]    LEDG;                    //    LED Green[8:0]
-    output  [17:0]    LEDR;                    //    LED Red[17:0]
-    //LCD Module 16X2
-    //inout     [7:0]    LCD_DATA;                //    LCD Data bus 8 bits
-    //output            LCD_ON;                    //    LCD Power ON/OFF
-    //output            LCD_BLON;                //    LCD Back Light ON/OFF
-    //output            LCD_RW;                    //    LCD Read/Write Select, 0 = Write, 1 = Read
-    //output            LCD_EN;                    //    LCD Enable
-    //output            LCD_RS;                    //    LCD Command/Data Select, 0 = Command, 1 = Data
-
-    //    LCD ON
-    //assign    LCD_ON        =    1'b1;
-    //assign    LCD_BLON    =    1'b1;
+	(
+		CLOCK_50,						//	50 MHz
+		
+		LEDR							//	LED Red[17:0]
+	);
 
 
-    //wire   [31:0]    mSEG7_DIG;
-    //reg     [31:0]    Cont;
+input			   CLOCK_50;				//	50 MHz
 
-    //wire              DLY_RST;
+output [17:0]	LEDR;					//	LED Red[17:0]
 
-
-    parameter FREQ      = 5000;     //pwm frequency
-    parameter MAIN_FREQ = 50000000; //main clock frequency
-
-    output pwm_clk;
-    reg [15:0] div_cnt;
+reg	 [31:0]	Cont;
+reg state;
 
 
-    //reset everything
-    initial begin
-        pwm_clk = 0;
-        div_cnt = FREQ;
-    end
+parameter FREQ = 50000000;
 
-    //main always block
-    always@(posedge CLOCK_50 or negedge KEY[0]) begin
-        if(!KEY[0])
-            Cont    <=    0;
-        else
-            Cont    <=    Cont+1;
 
-        //clock division for PWM
-        if (div_cnt == 0) begin
-            div_cnt <= FREQ;
-            pwm_clk <= ~pwm_clk;
+initial begin
+    Cont <= 0;
+    state <= 0;
+end
+
+always @(posedge CLOCK_50)begin
+        if (Cont == 50000000) begin
+            state <= ~state;
+            Cont <= 0;
         end
         else
-            div_cnt <= div_cnt - 1;
+            Cont <= Cont + 1;
     end
 
-
-    assign mSEG7_DIG = KEY[0]?{Cont[27:24],Cont[27:24],Cont[27:24],Cont[27:24],Cont[27:24],Cont[27:24],Cont[27:24],Cont[27:24]    }:32'h88888888;
-
-    assign LEDR = KEY[0] ? {Cont[31:14]} : 18'h3ffff;
-    assign LEDG = KEY[0] ? {Cont[25:23],Cont[25:23],Cont[25:23]    }:9'h1ff;
-
-    Reset_Delay r0 (.iCLK(CLOCK_50),.oRESET(DLY_RST)    );
-    SEG7_LUT_8  u0 (HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,HEX6,HEX7,mSEG7_DIG );
-    LCD_TEST    u5 (//    Host Side
-        .iCLK(CLOCK_50),
-        .iRST_N(DLY_RST),
-        //    LCD Side
-        .LCD_DATA(LCD_DATA),
-        .LCD_RW(LCD_RW),
-        .LCD_EN(LCD_EN),
-        .LCD_RS(LCD_RS)
-    );
-
+assign	LEDR[0] = state;
+assign	LEDR[2] = state;
+assign	LEDR[4] = state;
+assign	LEDR[6] = state;
+assign	LEDR[8] = state;
+assign	LEDR[10] = state;
+assign	LEDR[12] = state;
+assign	LEDR[14] = state;
+assign	LEDR[16] = state;
 endmodule
