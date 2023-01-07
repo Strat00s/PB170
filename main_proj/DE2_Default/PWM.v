@@ -1,8 +1,8 @@
+//simple PWM module with 200 sample resolution
 
 module PWM (input clk, input [7:0] on_time, output out);
     //constants
-    parameter SAMPLES = 200;
-
+    parameter SAMPLES = 200;    //duty cycle samples
 
     reg [7:0] cnt;
 
@@ -15,11 +15,11 @@ module PWM (input clk, input [7:0] on_time, output out);
     //"main"
     always @(posedge clk) begin
         if (cnt == SAMPLES)
-            cnt <= 0;
+            cnt <= 0;   //reset counter
         else
-            cnt <= cnt + 1;
+            cnt <= cnt + 1; //increase counter
     end
 
-    assign out = (cnt < on_time) ? 1:0;
+    assign out = (cnt < on_time) ? 1:0; //duty cycle "calculation"
 endmodule
 
