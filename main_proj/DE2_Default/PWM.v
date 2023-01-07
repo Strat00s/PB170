@@ -20,6 +20,6 @@ module PWM (input clk, input [7:0] on_time, output out);
             cnt <= cnt + 1;
     end
 
-    assign out = (cnt <= on_time) ? 1:0;
+    assign out = (cnt < on_time) ? 1:0;
 endmodule
 
