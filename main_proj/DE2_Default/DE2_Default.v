@@ -25,9 +25,8 @@ module DE2_Default (input CLOCK_50, input [3:0] KEY, input [17:0] SW, output [17
     reg  [4:0]   selected_led;
     reg  [31:0]  dim_timer;     //dimming timer
     wire [17:0]  led_out;       //output from PWM to LEDs
-    reg  [9:0]   dim_time;       //LED dimming time in ms
+    reg  [9:0]   dim_time;      //LED dimming time in ms
     reg  [9:0]   delay;         //delay for switching between LEDs in ms
-    //reg  [4:0]   led_cnt;
 
     reg [31:0] button_timer;
 
@@ -107,25 +106,33 @@ module DE2_Default (input CLOCK_50, input [3:0] KEY, input [17:0] SW, output [17
         //generate PWM clock
         //desired frequency * samples * 2; *2 as we are flipping the state
         if (pwm_timer >= MAIN_FREQ / (PWM_FREQ * PWM_S_CNT * 2)) begin
-            pwm_timer <= 0; //reset timer
+            pwm_timer <= 0;         //reset timer
             pwm_clk <= ~pwm_clk;    //toggle clock
         end
         else
             pwm_timer <= pwm_timer + 1;
 
         //switch between LEDs
-        if (switch_timer >= MAIN_FREQ / (1000 / delay)) begin //delay - delay in ms before changing to next LED
-            switch_timer <= 0;  //reset timer
+        if (switch_timer >= MAIN_FREQ / (1000 / delay)) begin   //delay - delay in ms before changing to next LED
+            switch_timer <= 0;                                  //reset timer
 
             //flip direction at the ends
             if (selected_led == 0 || selected_led == LED_CNT - 1)
                 direction = ~direction;
-            
-            selected_led = direction ? selected_led + 1 : selected_led - 1;
-            leds[selected_led] <= MAX_BRIGHTNESS;   //set max brighntess for current LED
+
+            leds[selected_led] <= MAX_BRIGHTNESS;                           //set max brighntess for current LED
+            selected_led = direction ? selected_led + 1 : selected_led - 1; //go to next LED
         end
-        else
+        else begin
             switch_timer <= switch_timer + 1;   //increment timer
+
+            //use rest of the loop to skip through possibly disabled LEDs
+            if (SW[selected_led] == 1) begin
+                if (selected_led == 0 || selected_led == LED_CNT - 1)
+                    direction = ~direction;
+                selected_led = direction ? selected_led + 1 : selected_led - 1;
+            end
+        end
 
         //continuously decrease the LED brightness
         if (dim_timer >= MAIN_FREQ / ((1000 * PWM_S_CNT) / dim_time)) begin //dim_time - how long in ms should the LEDs be on
@@ -140,13 +147,17 @@ module DE2_Default (input CLOCK_50, input [3:0] KEY, input [17:0] SW, output [17
         else
             dim_timer <= dim_timer + 1; //increment timer
         
-        //cheap and easy buttons
-        if (button_timer >= MAIN_FREQ / 10) begin
-            button_timer <= 0;
+        //cheap and easy buttons, no debouncing
+        if (button_timer >= MAIN_FREQ / 10) begin   //just sample 10x per second.
+            button_timer <= 0;                      //reset timer
+
+            //keys 0 and 1 for delay
             if (!KEY[0] && delay < 1000)
                 delay <= delay + 5;
             else if (!KEY[1] && delay > 0)
                 delay <= delay - 5;
+            
+            //keys 2 and 3 for dim time
             else if (!KEY[2] && dim_time < 1000)
                 dim_time <= dim_time + 10;
             else if (!KEY[3] && dim_time > 0)

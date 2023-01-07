@@ -32,7 +32,7 @@ HEADER
 	GRID_DUTY_CYCLE = 50;
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|CLOCK_50")
+SIGNAL("PWM_vlg_vec_tst|clk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -42,7 +42,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|CLOCK_50")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[17]")
+SIGNAL("PWM_vlg_vec_tst|out")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -52,7 +52,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[17]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[16]")
+SIGNAL("PWM_vlg_vec_tst|sampler")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -62,7 +62,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[16]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[15]")
+SIGNAL("PWM_vlg_vec_tst|i1|gnd")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -72,7 +72,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[15]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[14]")
+SIGNAL("PWM_vlg_vec_tst|i1|vcc")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -82,7 +82,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[14]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[13]")
+SIGNAL("PWM_vlg_vec_tst|i1|unknown")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -92,7 +92,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[13]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[12]")
+SIGNAL("PWM_vlg_vec_tst|i1|devclrn")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -102,7 +102,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[12]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[11]")
+SIGNAL("PWM_vlg_vec_tst|i1|devpor")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -112,7 +112,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[11]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[10]")
+SIGNAL("PWM_vlg_vec_tst|i1|devoe")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -122,7 +122,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[10]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[9]")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -132,7 +132,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[9]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[8]")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~12_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -142,7 +142,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[8]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[7]")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~38_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -152,7 +152,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[7]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[6]")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~44_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -162,7 +162,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[6]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[5]")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~52_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -172,7 +172,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[5]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[4]")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -182,7 +182,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[4]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[3]")
+SIGNAL("PWM_vlg_vec_tst|i1|LessThan0~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -192,7 +192,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[3]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[2]")
+SIGNAL("PWM_vlg_vec_tst|i1|LessThan0~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -202,7 +202,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[2]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[1]")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~7_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -212,7 +212,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[1]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|LEDR[0]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt~5_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -222,7 +222,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|LEDR[0]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|gnd")
+SIGNAL("PWM_vlg_vec_tst|i1|clk~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -232,7 +232,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|gnd")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|vcc")
+SIGNAL("PWM_vlg_vec_tst|i1|clk~clkctrl_outclk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -242,7 +242,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|vcc")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|unknown")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~29")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -252,7 +252,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|unknown")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|devclrn")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~30_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -262,7 +262,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|devclrn")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|devpor")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~31")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -272,7 +272,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|devpor")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|devoe")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~32_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -282,7 +282,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|devoe")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~0_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~33")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -292,7 +292,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~10_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~34_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -302,7 +302,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~10_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~12_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~35")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -312,7 +312,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~12_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~16_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~36_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -322,7 +322,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~16_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~44_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~37")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -332,7 +332,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~44_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~61")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~39")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -342,7 +342,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~61")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~62_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~40_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -352,7 +352,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~62_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~1_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~41")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -362,7 +362,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~1_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~1_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~43")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -372,7 +372,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~1_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~10_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~45")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -382,7 +382,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~10_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|CLOCK_50~combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~46_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -392,7 +392,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|CLOCK_50~combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|CLOCK_50~clkctrl_outclk")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~47")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -402,7 +402,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|CLOCK_50~clkctrl_outclk")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~1")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~49")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -412,7 +412,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~1")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~2_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~50_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -422,7 +422,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~2_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~3")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~51")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -432,7 +432,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~3")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~4_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~53")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -442,7 +442,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~4_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~5")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~54_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -452,7 +452,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~5")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~6_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~55")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -462,7 +462,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~6_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~2_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~57")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -472,7 +472,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~2_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~7")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~58_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -482,7 +482,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~7")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~8_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~59")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -492,7 +492,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~8_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~9")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~60_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -502,7 +502,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~9")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~11")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~61")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -512,7 +512,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~11")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~13")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~62_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -522,7 +522,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~13")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~14_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -532,7 +532,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~14_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~27")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~1")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -542,7 +542,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~27")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~28_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -552,7 +552,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~28_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~4_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~3")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -562,7 +562,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~4_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~29")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~4_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -572,7 +572,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~29")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~30_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~5")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -582,7 +582,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~30_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~5_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~6_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -592,7 +592,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~5_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~31")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt~4_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -602,7 +602,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~31")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~32_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~7")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -612,7 +612,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~32_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~33")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~8_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -622,7 +622,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~33")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~35")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~9")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -632,7 +632,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~35")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~36_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~11")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -642,7 +642,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~36_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~37")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~13")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -652,7 +652,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~37")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~38_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~14_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -662,7 +662,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~38_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~7_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -672,7 +672,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~7_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~39")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~15")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -682,7 +682,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~39")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~40_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~16_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -692,7 +692,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~40_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~8_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt~3_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -702,7 +702,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~8_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~41")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~17")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -712,7 +712,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~41")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~42_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~18_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -722,7 +722,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~42_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~9_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -732,7 +732,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~9_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~43")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~19")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -742,7 +742,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~43")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~45")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~20_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -752,7 +752,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~45")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~46_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~21")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -762,7 +762,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~46_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~11_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~22_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -772,7 +772,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~11_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~6_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~8_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -782,7 +782,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~6_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~34_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~10_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -792,7 +792,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~34_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~6_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~6_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -802,7 +802,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~6_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~5_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~9_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -812,7 +812,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~5_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~7_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~23")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -822,7 +822,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~7_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~0_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~24_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -832,7 +832,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~15")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -842,7 +842,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~15")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~17")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~25")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -852,7 +852,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~17")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~18_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~26_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -862,7 +862,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~18_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~19")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~27")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -872,7 +872,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~19")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~21")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~28_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -882,7 +882,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~21")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~22_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -892,7 +892,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~22_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~23")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~56_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -902,7 +902,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~23")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~24_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~4_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -912,7 +912,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~24_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~2_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~48_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -922,7 +922,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~2_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~25")
+SIGNAL("PWM_vlg_vec_tst|i1|Add0~42_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -932,7 +932,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~25")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~26_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~3_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -942,7 +942,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~26_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~3_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|Equal0~5_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -952,7 +952,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~3_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~3_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|LessThan0~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -962,7 +962,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~3_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~20_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|LessThan0~3_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -972,7 +972,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~20_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~0_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[31]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -982,7 +982,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~4_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[30]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -992,7 +992,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~4_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~47")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[29]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1002,7 +1002,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~47")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~49")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[28]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1012,7 +1012,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~49")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~50_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[27]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1022,7 +1022,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~50_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~12_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[26]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1032,7 +1032,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont~12_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~51")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[25]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1042,7 +1042,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~51")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~53")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[24]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1052,7 +1052,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~53")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~54_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[23]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1062,7 +1062,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~54_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~55")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[22]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1072,7 +1072,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~55")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~57")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[21]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1082,7 +1082,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~57")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~58_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[20]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1092,7 +1092,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~58_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~59")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[19]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1102,7 +1102,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~59")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~60_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[18]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1112,7 +1112,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~60_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~52_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[17]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1122,7 +1122,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~52_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~48_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[16]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1132,7 +1132,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~48_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~8_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[15]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1142,7 +1142,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~8_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~56_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[14]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1152,7 +1152,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Add0~56_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~9_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[13]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1162,7 +1162,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~9_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~10_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[12]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1172,7 +1172,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Equal0~10_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|state~0_combout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[11]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1182,7 +1182,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|state~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|state~regout")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[10]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1192,7 +1192,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|state~regout")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[31]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[9]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1202,7 +1202,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[31]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[30]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[8]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1212,7 +1212,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[30]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[29]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[7]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1222,7 +1222,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[29]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[28]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[6]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1232,7 +1232,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[28]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[27]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[5]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1242,7 +1242,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[27]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[26]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1252,7 +1252,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[26]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[25]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1262,7 +1262,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[25]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[24]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1272,7 +1272,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[24]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[23]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1282,7 +1282,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[23]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[22]")
+SIGNAL("PWM_vlg_vec_tst|i1|cnt[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1292,227 +1292,7 @@ SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[22]")
 	PARENT = "";
 }
 
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[21]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[20]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[19]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[18]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[17]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[16]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[15]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[14]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[13]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[12]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[11]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[10]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[9]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[8]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("DE2_Default_vlg_vec_tst|i1|Cont[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|CLOCK_50")
+TRANSITION_LIST("PWM_vlg_vec_tst|clk")
 {
 	NODE
 	{
@@ -1720,26 +1500,225 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|CLOCK_50")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[17]")
+TRANSITION_LIST("PWM_vlg_vec_tst|out")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL X FOR 6.363;
+		LEVEL 1 FOR 993.637;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[16]")
+TRANSITION_LIST("PWM_vlg_vec_tst|sampler")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 5.221;
-		LEVEL 0 FOR 994.779;
+		LEVEL X FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[15]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|gnd")
 {
 	NODE
 	{
@@ -1748,159 +1727,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[15]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[14]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 5.221;
-		LEVEL 0 FOR 994.779;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[13]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[12]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 5.525;
-		LEVEL 0 FOR 994.475;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[11]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[10]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 5.515;
-		LEVEL 0 FOR 994.485;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[9]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[8]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 5.707;
-		LEVEL 0 FOR 994.293;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 6.193;
-		LEVEL 0 FOR 993.807;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 6.203;
-		LEVEL 0 FOR 993.797;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 6.19;
-		LEVEL 0 FOR 993.81;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|LEDR[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 6.22;
-		LEVEL 0 FOR 993.78;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|gnd")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|vcc")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|vcc")
 {
 	NODE
 	{
@@ -1909,7 +1736,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|vcc")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|unknown")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|unknown")
 {
 	NODE
 	{
@@ -1918,7 +1745,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|unknown")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|devclrn")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|devclrn")
 {
 	NODE
 	{
@@ -1927,7 +1754,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|devclrn")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|devpor")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|devpor")
 {
 	NODE
 	{
@@ -1936,7 +1763,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|devpor")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|devoe")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|devoe")
 {
 	NODE
 	{
@@ -1945,13 +1772,13 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|devoe")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~0_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~0_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.773;
-		LEVEL 1 FOR 7.94;
+		LEVEL X FOR 0.77;
+		LEVEL 1 FOR 7.927;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
@@ -2051,65 +1878,22 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~0_combout")
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 1.287;
+		LEVEL 1 FOR 1.303;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~10_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~12_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.117;
-		LEVEL 0 FOR 308.266;
-		LEVEL 1 FOR 320.0;
-		LEVEL 0 FOR 320.0;
-		LEVEL 1 FOR 50.617;
+		LEVEL X FOR 1.153;
+		LEVEL 0 FOR 628.285;
+		LEVEL 1 FOR 370.562;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~12_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.157;
-		LEVEL 0 FOR 628.297;
-		LEVEL 1 FOR 370.546;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~16_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.395;
-		LEVEL 0 FOR 998.605;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~44_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.261;
-		LEVEL 0 FOR 998.739;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~61")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.711;
-		LEVEL 0 FOR 999.289;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~62_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~38_combout")
 {
 	NODE
 	{
@@ -2119,137 +1903,180 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~62_combout")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~1_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~44_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.732;
-		LEVEL 0 FOR 999.268;
+		LEVEL X FOR 1.157;
+		LEVEL 0 FOR 998.843;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~1_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~52_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.741;
-		LEVEL 1 FOR 7.687;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 0.572;
+		LEVEL X FOR 1.121;
+		LEVEL 0 FOR 998.879;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~10_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~2_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.841;
-		LEVEL 0 FOR 998.159;
+		LEVEL X FOR 0.918;
+		LEVEL 1 FOR 999.082;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|CLOCK_50~combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|LessThan0~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.93;
+		LEVEL 1 FOR 37.777;
+		LEVEL 0 FOR 600.15;
+		LEVEL 1 FOR 39.85;
+		LEVEL 0 FOR 321.293;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|LessThan0~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.598;
+		LEVEL 0 FOR 999.402;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~7_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.737;
+		LEVEL 0 FOR 999.263;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt~5_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.653;
+		LEVEL 1 FOR 7.927;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 0.42;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|clk~combout")
 {
 	NODE
 	{
@@ -2457,7 +2284,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|CLOCK_50~combout")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|CLOCK_50~clkctrl_outclk")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|clk~clkctrl_outclk")
 {
 	NODE
 	{
@@ -2666,689 +2493,147 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|CLOCK_50~clkctrl_outclk")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~1")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~29")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.749;
-		LEVEL 0 FOR 7.94;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 1.311;
+		LEVEL X FOR 0.711;
+		LEVEL 0 FOR 999.289;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~2_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~30_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.159;
-		LEVEL 0 FOR 7.94;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.578;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.578;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 0.901;
+		LEVEL X FOR 1.121;
+		LEVEL 0 FOR 998.879;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~3")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~31")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.803;
+		LEVEL 1 FOR 999.197;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~32_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.213;
+		LEVEL 0 FOR 998.787;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~33")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.7;
+		LEVEL 0 FOR 999.3;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~34_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.11;
+		LEVEL 0 FOR 998.89;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~35")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 0.71;
-		LEVEL 1 FOR 17.94;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.89;
-		LEVEL 1 FOR 1.35;
+		LEVEL 1 FOR 999.29;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~4_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~36_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 1.12;
-		LEVEL 0 FOR 28.05;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 10.83;
+		LEVEL 0 FOR 998.88;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~5")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~37")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.706;
-		LEVEL 0 FOR 37.94;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.815;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 1.279;
+		LEVEL X FOR 0.711;
+		LEVEL 0 FOR 999.289;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~6_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.116;
-		LEVEL 0 FOR 68.125;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 50.759;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~2_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.157;
-		LEVEL 1 FOR 7.94;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.903;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~7")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~39")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 0.746;
-		LEVEL 1 FOR 117.971;
-		LEVEL 0 FOR 0.075;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.784;
-		LEVEL 1 FOR 120.031;
-		LEVEL 0 FOR 0.075;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.784;
-		LEVEL 1 FOR 120.031;
-		LEVEL 0 FOR 0.075;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.784;
-		LEVEL 1 FOR 120.031;
-		LEVEL 0 FOR 0.075;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.784;
-		LEVEL 1 FOR 120.031;
-		LEVEL 0 FOR 0.075;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.784;
-		LEVEL 1 FOR 120.031;
-		LEVEL 0 FOR 0.075;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.784;
-		LEVEL 1 FOR 41.314;
+		LEVEL 1 FOR 999.254;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~8_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~40_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 1.156;
-		LEVEL 0 FOR 148.156;
-		LEVEL 1 FOR 9.362;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 150.216;
-		LEVEL 0 FOR 9.362;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 150.216;
-		LEVEL 1 FOR 9.362;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 150.216;
-		LEVEL 0 FOR 9.362;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 150.216;
-		LEVEL 1 FOR 9.362;
-		LEVEL 0 FOR 0.422;
-		LEVEL 1 FOR 150.216;
-		LEVEL 0 FOR 9.362;
-		LEVEL 1 FOR 0.422;
-		LEVEL 0 FOR 40.904;
+		LEVEL 0 FOR 998.844;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~9")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~41")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.707;
-		LEVEL 0 FOR 157.94;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 120.031;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.674;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 120.031;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.674;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 120.031;
-		LEVEL 1 FOR 0.075;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 0.11;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 9.674;
-		LEVEL 0 FOR 41.353;
+		LEVEL X FOR 0.711;
+		LEVEL 0 FOR 999.289;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~11")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~43")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 0.747;
-		LEVEL 1 FOR 477.971;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 120.031;
-		LEVEL 0 FOR 0.075;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 0.11;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 9.643;
-		LEVEL 1 FOR 361.313;
+		LEVEL 1 FOR 999.253;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~13")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~45")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 0.747;
-		LEVEL 0 FOR 637.94;
-		LEVEL 1 FOR 0.071;
-		LEVEL 0 FOR 361.242;
+		LEVEL 0 FOR 999.253;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~14_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~46_combout")
 {
 	NODE
 	{
@@ -3358,347 +2643,17 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~14_combout")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~27")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~47")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.85;
-		LEVEL 1 FOR 999.15;
+		LEVEL X FOR 0.803;
+		LEVEL 1 FOR 999.197;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~28_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.26;
-		LEVEL 0 FOR 998.74;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~4_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 2.215;
-		LEVEL 0 FOR 997.785;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~29")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.887;
-		LEVEL 0 FOR 999.113;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~30_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.297;
-		LEVEL 0 FOR 998.703;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~5_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.973;
-		LEVEL 0 FOR 998.027;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~31")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.942;
-		LEVEL 1 FOR 999.058;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~32_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.352;
-		LEVEL 0 FOR 998.648;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~33")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.7;
-		LEVEL 0 FOR 999.3;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~35")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.933;
-		LEVEL 1 FOR 999.067;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~36_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.343;
-		LEVEL 0 FOR 998.657;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~37")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.7;
-		LEVEL 0 FOR 999.3;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~38_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.11;
-		LEVEL 0 FOR 998.89;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~7_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.814;
-		LEVEL 0 FOR 998.186;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~39")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.885;
-		LEVEL 1 FOR 999.115;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~40_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.295;
-		LEVEL 0 FOR 998.705;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~8_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.881;
-		LEVEL 0 FOR 998.119;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~41")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.886;
-		LEVEL 0 FOR 999.114;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~42_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.296;
-		LEVEL 0 FOR 998.704;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~9_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.885;
-		LEVEL 0 FOR 998.115;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~43")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.851;
-		LEVEL 1 FOR 999.149;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~45")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.933;
-		LEVEL 0 FOR 999.067;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~46_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.343;
-		LEVEL 0 FOR 998.657;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~11_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.881;
-		LEVEL 0 FOR 998.119;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~6_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.459;
-		LEVEL 0 FOR 999.541;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~34_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.11;
-		LEVEL 0 FOR 998.89;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~6_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.693;
-		LEVEL 0 FOR 998.307;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~5_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.467;
-		LEVEL 0 FOR 999.533;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~7_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.707;
-		LEVEL 0 FOR 999.293;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 2.132;
-		LEVEL 0 FOR 997.868;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~15")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.985;
-		LEVEL 1 FOR 999.015;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~17")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.745;
-		LEVEL 0 FOR 999.255;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~18_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1.155;
-		LEVEL 0 FOR 998.845;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~19")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 0.711;
-		LEVEL 1 FOR 999.289;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~21")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~49")
 {
 	NODE
 	{
@@ -3708,7 +2663,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~21")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~22_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~50_combout")
 {
 	NODE
 	{
@@ -3718,7 +2673,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~22_combout")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~23")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~51")
 {
 	NODE
 	{
@@ -3728,7 +2683,67 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~23")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~24_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~53")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.746;
+		LEVEL 0 FOR 999.254;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~54_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.156;
+		LEVEL 0 FOR 998.844;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~55")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.711;
+		LEVEL 1 FOR 999.289;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~57")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.746;
+		LEVEL 0 FOR 999.254;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~58_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.156;
+		LEVEL 0 FOR 998.844;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~59")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.711;
+		LEVEL 1 FOR 999.289;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~60_combout")
 {
 	NODE
 	{
@@ -3738,187 +2753,889 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~24_combout")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~2_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~61")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 2.07;
-		LEVEL 0 FOR 997.93;
+		LEVEL X FOR 0.711;
+		LEVEL 0 FOR 999.289;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~25")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~62_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.121;
+		LEVEL 0 FOR 998.879;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.875;
+		LEVEL 1 FOR 999.125;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.746;
+		LEVEL 0 FOR 7.927;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.327;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.156;
+		LEVEL 0 FOR 7.927;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.576;
+		LEVEL 0 FOR 0.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.576;
+		LEVEL 1 FOR 0.424;
+		LEVEL 0 FOR 0.917;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.705;
+		LEVEL 1 FOR 17.927;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.888;
+		LEVEL 1 FOR 1.368;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.115;
+		LEVEL 0 FOR 28.039;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.846;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~5")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.706;
+		LEVEL 0 FOR 57.997;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 60.07;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.818;
+		LEVEL 0 FOR 41.367;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~6_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.116;
+		LEVEL 0 FOR 68.109;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 50.775;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.962;
+		LEVEL 0 FOR 68.109;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 49.929;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~7")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 0.89;
-		LEVEL 0 FOR 999.11;
+		LEVEL 1 FOR 137.884;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.931;
+		LEVEL 1 FOR 139.957;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.931;
+		LEVEL 1 FOR 139.957;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.931;
+		LEVEL 1 FOR 139.957;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.931;
+		LEVEL 1 FOR 139.957;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.931;
+		LEVEL 1 FOR 139.957;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.931;
+		LEVEL 1 FOR 41.183;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~26_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~8_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL X FOR 1.3;
-		LEVEL 0 FOR 998.7;
+		LEVEL 0 FOR 147.996;
+		LEVEL 1 FOR 9.365;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 150.069;
+		LEVEL 0 FOR 9.365;
+		LEVEL 1 FOR 0.566;
+		LEVEL 0 FOR 150.069;
+		LEVEL 1 FOR 9.365;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 150.069;
+		LEVEL 0 FOR 9.365;
+		LEVEL 1 FOR 0.566;
+		LEVEL 0 FOR 150.069;
+		LEVEL 1 FOR 9.365;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 150.069;
+		LEVEL 0 FOR 9.365;
+		LEVEL 1 FOR 0.566;
+		LEVEL 0 FOR 40.773;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~3_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~9")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 2.28;
-		LEVEL 0 FOR 997.72;
+		LEVEL X FOR 0.707;
+		LEVEL 0 FOR 157.927;
+		LEVEL 1 FOR 0.254;
+		LEVEL 0 FOR 139.957;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.677;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 0.254;
+		LEVEL 0 FOR 139.957;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.677;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 0.254;
+		LEVEL 0 FOR 139.957;
+		LEVEL 1 FOR 0.112;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.677;
+		LEVEL 0 FOR 41.366;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~3_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~11")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.462;
-		LEVEL 0 FOR 999.538;
+		LEVEL X FOR 0.743;
+		LEVEL 1 FOR 477.962;
+		LEVEL 0 FOR 0.254;
+		LEVEL 1 FOR 139.957;
+		LEVEL 0 FOR 0.112;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.642;
+		LEVEL 1 FOR 361.33;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~20_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~13")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.121;
-		LEVEL 0 FOR 998.879;
+		LEVEL X FOR 0.743;
+		LEVEL 0 FOR 637.927;
+		LEVEL 1 FOR 0.071;
+		LEVEL 0 FOR 361.259;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~0_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~14_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.158;
-		LEVEL 1 FOR 998.842;
+		LEVEL X FOR 1.153;
+		LEVEL 0 FOR 998.847;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~4_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt~2_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.99;
-		LEVEL 0 FOR 999.01;
+		LEVEL X FOR 1.753;
+		LEVEL 0 FOR 998.247;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~47")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~15")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.023;
-		LEVEL 1 FOR 998.977;
+		LEVEL X FOR 0.982;
+		LEVEL 1 FOR 999.018;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~49")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~16_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.746;
-		LEVEL 0 FOR 999.254;
+		LEVEL X FOR 1.392;
+		LEVEL 0 FOR 998.608;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~50_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt~3_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.156;
-		LEVEL 0 FOR 998.844;
+		LEVEL X FOR 2.011;
+		LEVEL 0 FOR 997.989;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont~12_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~17")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.744;
-		LEVEL 0 FOR 998.256;
+		LEVEL X FOR 0.851;
+		LEVEL 0 FOR 999.149;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~51")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~18_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.885;
-		LEVEL 1 FOR 999.115;
+		LEVEL X FOR 1.261;
+		LEVEL 0 FOR 998.739;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~53")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt~1_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.746;
-		LEVEL 0 FOR 999.254;
+		LEVEL X FOR 2.203;
+		LEVEL 0 FOR 997.797;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~54_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~19")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.156;
-		LEVEL 0 FOR 998.844;
+		LEVEL X FOR 0.891;
+		LEVEL 1 FOR 999.109;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~55")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~20_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.7;
-		LEVEL 1 FOR 999.3;
+		LEVEL X FOR 1.301;
+		LEVEL 0 FOR 998.699;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~57")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~21")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.746;
-		LEVEL 0 FOR 999.254;
+		LEVEL X FOR 0.74;
+		LEVEL 0 FOR 999.26;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~58_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~22_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.156;
-		LEVEL 0 FOR 998.844;
+		LEVEL X FOR 1.15;
+		LEVEL 0 FOR 998.85;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~59")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~8_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.74;
+		LEVEL 0 FOR 999.26;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~10_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.117;
+		LEVEL 0 FOR 308.25;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 50.633;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~6_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.762;
+		LEVEL 0 FOR 77.945;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 600.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 241.293;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~9_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.721;
+		LEVEL 0 FOR 999.279;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~23")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.706;
+		LEVEL 1 FOR 999.294;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~24_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.116;
+		LEVEL 0 FOR 998.884;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.704;
+		LEVEL 0 FOR 998.296;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~25")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.894;
+		LEVEL 0 FOR 999.106;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~26_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1.304;
+		LEVEL 0 FOR 998.696;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~27")
 {
 	NODE
 	{
@@ -3928,7 +3645,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~59")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~60_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~28_combout")
 {
 	NODE
 	{
@@ -3938,77 +3655,97 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~60_combout")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~52_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~1_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.295;
-		LEVEL 0 FOR 998.705;
+		LEVEL X FOR 1.065;
+		LEVEL 1 FOR 998.935;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~48_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~56_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.433;
-		LEVEL 0 FOR 998.567;
+		LEVEL X FOR 1.121;
+		LEVEL 0 FOR 998.879;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~8_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~4_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.799;
-		LEVEL 0 FOR 999.201;
+		LEVEL X FOR 0.999;
+		LEVEL 1 FOR 999.001;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Add0~56_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~48_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.11;
-		LEVEL 0 FOR 998.89;
+		LEVEL X FOR 1.213;
+		LEVEL 0 FOR 998.787;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~9_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Add0~42_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 0.881;
-		LEVEL 1 FOR 999.119;
+		LEVEL X FOR 1.121;
+		LEVEL 0 FOR 998.879;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Equal0~10_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~3_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.327;
-		LEVEL 0 FOR 998.673;
+		LEVEL X FOR 1.009;
+		LEVEL 1 FOR 998.991;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|state~0_combout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|Equal0~5_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1.475;
-		LEVEL 0 FOR 998.525;
+		LEVEL X FOR 1.861;
+		LEVEL 1 FOR 998.139;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|state~regout")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|LessThan0~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.665;
+		LEVEL 0 FOR 999.335;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|LessThan0~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2.613;
+		LEVEL 1 FOR 997.387;
+	}
+}
+
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[31]")
 {
 	NODE
 	{
@@ -4017,7 +3754,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|state~regout")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[31]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[30]")
 {
 	NODE
 	{
@@ -4026,7 +3763,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[31]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[30]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[29]")
 {
 	NODE
 	{
@@ -4035,7 +3772,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[30]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[29]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[28]")
 {
 	NODE
 	{
@@ -4044,7 +3781,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[29]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[28]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[27]")
 {
 	NODE
 	{
@@ -4053,7 +3790,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[28]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[27]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[26]")
 {
 	NODE
 	{
@@ -4062,7 +3799,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[27]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[26]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[25]")
 {
 	NODE
 	{
@@ -4071,7 +3808,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[26]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[25]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[24]")
 {
 	NODE
 	{
@@ -4080,7 +3817,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[25]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[24]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[23]")
 {
 	NODE
 	{
@@ -4089,7 +3826,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[24]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[23]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[22]")
 {
 	NODE
 	{
@@ -4098,7 +3835,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[23]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[22]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[21]")
 {
 	NODE
 	{
@@ -4107,7 +3844,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[22]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[21]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[20]")
 {
 	NODE
 	{
@@ -4116,7 +3853,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[21]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[20]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[19]")
 {
 	NODE
 	{
@@ -4125,7 +3862,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[20]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[19]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[18]")
 {
 	NODE
 	{
@@ -4134,7 +3871,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[19]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[18]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[17]")
 {
 	NODE
 	{
@@ -4143,7 +3880,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[18]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[17]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[16]")
 {
 	NODE
 	{
@@ -4152,7 +3889,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[17]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[16]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[15]")
 {
 	NODE
 	{
@@ -4161,7 +3898,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[16]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[15]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[14]")
 {
 	NODE
 	{
@@ -4170,7 +3907,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[15]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[14]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[13]")
 {
 	NODE
 	{
@@ -4179,7 +3916,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[14]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[13]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[12]")
 {
 	NODE
 	{
@@ -4188,7 +3925,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[13]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[12]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[11]")
 {
 	NODE
 	{
@@ -4197,7 +3934,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[12]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[11]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[10]")
 {
 	NODE
 	{
@@ -4206,7 +3943,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[11]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[10]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[9]")
 {
 	NODE
 	{
@@ -4215,7 +3952,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[10]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[9]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[8]")
 {
 	NODE
 	{
@@ -4224,7 +3961,7 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[9]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[8]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[7]")
 {
 	NODE
 	{
@@ -4233,58 +3970,49 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[8]")
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[7]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[6]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 637.927;
+		LEVEL 1 FOR 362.073;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[6]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[5]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 637.94;
-		LEVEL 1 FOR 362.06;
-	}
-}
-
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 317.94;
+		LEVEL 0 FOR 317.927;
 		LEVEL 1 FOR 320.0;
 		LEVEL 0 FOR 320.0;
-		LEVEL 1 FOR 42.06;
+		LEVEL 1 FOR 42.073;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[4]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[4]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 157.94;
+		LEVEL 0 FOR 157.927;
 		LEVEL 1 FOR 160.0;
 		LEVEL 0 FOR 160.0;
 		LEVEL 1 FOR 160.0;
 		LEVEL 0 FOR 160.0;
 		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 42.06;
+		LEVEL 0 FOR 42.073;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[3]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[3]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 77.94;
+		LEVEL 0 FOR 77.927;
 		LEVEL 1 FOR 80.0;
 		LEVEL 0 FOR 80.0;
 		LEVEL 1 FOR 80.0;
@@ -4296,16 +4024,16 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[3]")
 		LEVEL 1 FOR 80.0;
 		LEVEL 0 FOR 80.0;
 		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 42.06;
+		LEVEL 0 FOR 42.073;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[2]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 37.94;
+		LEVEL 0 FOR 37.927;
 		LEVEL 1 FOR 40.0;
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 40.0;
@@ -4330,16 +4058,16 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[2]")
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 40.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 2.06;
+		LEVEL 1 FOR 2.073;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[1]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[1]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 17.94;
+		LEVEL 0 FOR 17.927;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 20.0;
@@ -4389,16 +4117,16 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[1]")
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 2.06;
+		LEVEL 0 FOR 2.073;
 	}
 }
 
-TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[0]")
+TRANSITION_LIST("PWM_vlg_vec_tst|i1|cnt[0]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 7.94;
+		LEVEL 0 FOR 7.927;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
@@ -4498,13 +4226,13 @@ TRANSITION_LIST("DE2_Default_vlg_vec_tst|i1|Cont[0]")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 2.06;
+		LEVEL 0 FOR 2.073;
 	}
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|CLOCK_50";
+	CHANNEL = "PWM_vlg_vec_tst|clk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 0;
@@ -4513,7 +4241,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[17]";
+	CHANNEL = "PWM_vlg_vec_tst|out";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 1;
@@ -4522,7 +4250,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[16]";
+	CHANNEL = "PWM_vlg_vec_tst|sampler";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 2;
@@ -4531,7 +4259,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[15]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|gnd";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 3;
@@ -4540,7 +4268,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[14]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|vcc";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 4;
@@ -4549,7 +4277,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[13]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|unknown";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 5;
@@ -4558,7 +4286,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[12]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|devclrn";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 6;
@@ -4567,7 +4295,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[11]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|devpor";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 7;
@@ -4576,7 +4304,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[10]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|devoe";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 8;
@@ -4585,7 +4313,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[9]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 9;
@@ -4594,7 +4322,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[8]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~12_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 10;
@@ -4603,7 +4331,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[7]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~38_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 11;
@@ -4612,7 +4340,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[6]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~44_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 12;
@@ -4621,7 +4349,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[5]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~52_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 13;
@@ -4630,7 +4358,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[4]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
@@ -4639,7 +4367,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[3]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|LessThan0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;
@@ -4648,7 +4376,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[2]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|LessThan0~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 16;
@@ -4657,7 +4385,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[1]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~7_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 17;
@@ -4666,7 +4394,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|LEDR[0]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt~5_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 18;
@@ -4675,7 +4403,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|gnd";
+	CHANNEL = "PWM_vlg_vec_tst|i1|clk~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 19;
@@ -4684,7 +4412,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|vcc";
+	CHANNEL = "PWM_vlg_vec_tst|i1|clk~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 20;
@@ -4693,7 +4421,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|unknown";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~29";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 21;
@@ -4702,7 +4430,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|devclrn";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~30_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 22;
@@ -4711,7 +4439,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|devpor";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~31";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 23;
@@ -4720,7 +4448,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|devoe";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~32_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 24;
@@ -4729,7 +4457,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~0_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~33";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 25;
@@ -4738,7 +4466,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~10_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~34_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 26;
@@ -4747,7 +4475,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~12_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~35";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 27;
@@ -4756,7 +4484,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~16_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~36_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 28;
@@ -4765,7 +4493,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~44_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~37";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 29;
@@ -4774,7 +4502,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~61";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~39";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 30;
@@ -4783,7 +4511,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~62_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~40_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 31;
@@ -4792,7 +4520,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~1_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~41";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 32;
@@ -4801,7 +4529,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~1_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~43";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 33;
@@ -4810,7 +4538,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~10_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~45";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 34;
@@ -4819,7 +4547,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|CLOCK_50~combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~46_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 35;
@@ -4828,7 +4556,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|CLOCK_50~clkctrl_outclk";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~47";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 36;
@@ -4837,7 +4565,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~1";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~49";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 37;
@@ -4846,7 +4574,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~2_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~50_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 38;
@@ -4855,7 +4583,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~3";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~51";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 39;
@@ -4864,7 +4592,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~4_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~53";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 40;
@@ -4873,7 +4601,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~5";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~54_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 41;
@@ -4882,7 +4610,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~6_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~55";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 42;
@@ -4891,7 +4619,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~2_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~57";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 43;
@@ -4900,7 +4628,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~7";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~58_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 44;
@@ -4909,7 +4637,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~8_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~59";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 45;
@@ -4918,7 +4646,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~9";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~60_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 46;
@@ -4927,7 +4655,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~11";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~61";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 47;
@@ -4936,7 +4664,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~13";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~62_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 48;
@@ -4945,7 +4673,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~14_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 49;
@@ -4954,7 +4682,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~27";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~1";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 50;
@@ -4963,7 +4691,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~28_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 51;
@@ -4972,7 +4700,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~4_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~3";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 52;
@@ -4981,7 +4709,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~29";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~4_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 53;
@@ -4990,7 +4718,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~30_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~5";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 54;
@@ -4999,7 +4727,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~5_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~6_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 55;
@@ -5008,7 +4736,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~31";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt~4_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 56;
@@ -5017,7 +4745,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~32_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~7";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 57;
@@ -5026,7 +4754,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~33";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~8_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 58;
@@ -5035,7 +4763,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~35";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~9";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 59;
@@ -5044,7 +4772,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~36_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~11";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 60;
@@ -5053,7 +4781,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~37";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~13";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 61;
@@ -5062,7 +4790,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~38_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~14_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 62;
@@ -5071,7 +4799,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~7_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 63;
@@ -5080,7 +4808,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~39";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~15";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 64;
@@ -5089,7 +4817,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~40_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~16_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 65;
@@ -5098,7 +4826,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~8_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 66;
@@ -5107,7 +4835,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~41";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~17";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 67;
@@ -5116,7 +4844,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~42_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~18_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 68;
@@ -5125,7 +4853,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~9_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 69;
@@ -5134,7 +4862,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~43";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~19";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 70;
@@ -5143,7 +4871,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~45";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~20_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 71;
@@ -5152,7 +4880,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~46_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~21";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 72;
@@ -5161,7 +4889,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~11_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~22_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 73;
@@ -5170,7 +4898,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~6_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~8_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 74;
@@ -5179,7 +4907,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~34_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~10_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 75;
@@ -5188,7 +4916,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~6_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~6_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 76;
@@ -5197,7 +4925,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~5_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~9_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 77;
@@ -5206,7 +4934,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~7_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~23";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 78;
@@ -5215,7 +4943,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~0_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~24_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 79;
@@ -5224,7 +4952,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~15";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 80;
@@ -5233,7 +4961,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~17";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~25";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 81;
@@ -5242,7 +4970,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~18_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~26_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 82;
@@ -5251,7 +4979,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~19";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~27";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 83;
@@ -5260,7 +4988,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~21";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~28_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 84;
@@ -5269,7 +4997,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~22_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 85;
@@ -5278,7 +5006,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~23";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~56_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 86;
@@ -5287,7 +5015,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~24_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~4_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 87;
@@ -5296,7 +5024,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~2_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~48_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 88;
@@ -5305,7 +5033,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~25";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Add0~42_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 89;
@@ -5314,7 +5042,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~26_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 90;
@@ -5323,7 +5051,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~3_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|Equal0~5_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 91;
@@ -5332,7 +5060,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~3_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|LessThan0~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 92;
@@ -5341,7 +5069,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~20_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|LessThan0~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 93;
@@ -5350,7 +5078,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~0_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[31]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 94;
@@ -5359,7 +5087,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~4_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[30]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 95;
@@ -5368,7 +5096,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~47";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[29]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 96;
@@ -5377,7 +5105,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~49";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[28]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 97;
@@ -5386,7 +5114,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~50_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[27]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 98;
@@ -5395,7 +5123,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont~12_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[26]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 99;
@@ -5404,7 +5132,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~51";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[25]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 100;
@@ -5413,7 +5141,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~53";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[24]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 101;
@@ -5422,7 +5150,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~54_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[23]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 102;
@@ -5431,7 +5159,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~55";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[22]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 103;
@@ -5440,7 +5168,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~57";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[21]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 104;
@@ -5449,7 +5177,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~58_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[20]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 105;
@@ -5458,7 +5186,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~59";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[19]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 106;
@@ -5467,7 +5195,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~60_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[18]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 107;
@@ -5476,7 +5204,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~52_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[17]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 108;
@@ -5485,7 +5213,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~48_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[16]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 109;
@@ -5494,7 +5222,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~8_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[15]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 110;
@@ -5503,7 +5231,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Add0~56_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[14]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 111;
@@ -5512,7 +5240,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~9_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[13]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 112;
@@ -5521,7 +5249,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Equal0~10_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[12]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 113;
@@ -5530,7 +5258,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|state~0_combout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[11]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 114;
@@ -5539,7 +5267,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|state~regout";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[10]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 115;
@@ -5548,7 +5276,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[31]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[9]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 116;
@@ -5557,7 +5285,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[30]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[8]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 117;
@@ -5566,7 +5294,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[29]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 118;
@@ -5575,7 +5303,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[28]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 119;
@@ -5584,7 +5312,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[27]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 120;
@@ -5593,7 +5321,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[26]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 121;
@@ -5602,7 +5330,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[25]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 122;
@@ -5611,7 +5339,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[24]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 123;
@@ -5620,7 +5348,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[23]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 124;
@@ -5629,208 +5357,10 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[22]";
+	CHANNEL = "PWM_vlg_vec_tst|i1|cnt[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 125;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[21]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 126;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[20]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 127;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[19]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 128;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[18]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 129;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[17]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 130;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[16]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 131;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[15]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 132;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[14]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 133;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[13]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 134;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[12]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 135;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[11]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 136;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[10]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 137;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[9]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 138;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[8]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 139;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[7]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 140;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[6]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 141;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[5]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 142;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[4]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 143;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[3]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 144;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 145;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[1]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 146;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "DE2_Default_vlg_vec_tst|i1|Cont[0]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 147;
 	TREE_LEVEL = 0;
 }
 ;

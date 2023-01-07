@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE2_Default
-Sat Jan 07 12:06:29 2023
+Sat Jan 07 23:03:06 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,10 +13,36 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: Top-level Entity: |DE2_Default
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |DE2_Default
+ 13. Parameter Settings for User Entity Instance: PWM:pwm0
+ 14. Parameter Settings for User Entity Instance: PWM:pwm1
+ 15. Parameter Settings for User Entity Instance: PWM:pwm2
+ 16. Parameter Settings for User Entity Instance: PWM:pwm3
+ 17. Parameter Settings for User Entity Instance: PWM:pwm4
+ 18. Parameter Settings for User Entity Instance: PWM:pwm5
+ 19. Parameter Settings for User Entity Instance: PWM:pwm6
+ 20. Parameter Settings for User Entity Instance: PWM:pwm7
+ 21. Parameter Settings for User Entity Instance: PWM:pwm8
+ 22. Parameter Settings for User Entity Instance: PWM:pwm9
+ 23. Parameter Settings for User Entity Instance: PWM:pwm10
+ 24. Parameter Settings for User Entity Instance: PWM:pwm11
+ 25. Parameter Settings for User Entity Instance: PWM:pwm12
+ 26. Parameter Settings for User Entity Instance: PWM:pwm13
+ 27. Parameter Settings for User Entity Instance: PWM:pwm14
+ 28. Parameter Settings for User Entity Instance: PWM:pwm15
+ 29. Parameter Settings for User Entity Instance: PWM:pwm16
+ 30. Parameter Settings for User Entity Instance: PWM:pwm17
+ 31. Parameter Settings for Inferred Entity Instance: lpm_divide:Div0
+ 32. Parameter Settings for Inferred Entity Instance: lpm_divide:Div1
+ 33. Parameter Settings for Inferred Entity Instance: lpm_divide:Div2
+ 34. Parameter Settings for Inferred Entity Instance: lpm_divide:Div3
+ 35. Elapsed Time Per Partition
+ 36. Analysis & Synthesis Messages
+ 37. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -42,16 +68,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jan 07 12:06:29 2023           ;
+; Analysis & Synthesis Status        ; Successful - Sat Jan 07 23:03:06 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; DE2_Default                                     ;
 ; Top-level Entity Name              ; DE2_Default                                     ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 57                                              ;
-;     Total combinational functions  ; 57                                              ;
-;     Dedicated logic registers      ; 33                                              ;
-; Total registers                    ; 33                                              ;
-; Total pins                         ; 19                                              ;
+; Total logic elements               ; 2,470                                           ;
+;     Total combinational functions  ; 2,470                                           ;
+;     Dedicated logic registers      ; 306                                             ;
+; Total registers                    ; 306                                             ;
+; Total pins                         ; 41                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -156,13 +182,32 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                  ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                    ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------+---------+
-; DE2_Default.v                    ; yes             ; User Verilog HDL File  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/DE2_Default.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                 ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
+; PWM.v                            ; yes             ; User Verilog HDL File        ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/PWM.v                      ;         ;
+; DE2_Default.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/DE2_Default.v              ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_divide.tdf                             ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/abs_divider.inc                            ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sign_div_unsign.inc                        ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                             ;         ;
+; db/lpm_divide_nfm.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/lpm_divide_nfm.tdf      ;         ;
+; db/sign_div_unsign_1nh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/sign_div_unsign_1nh.tdf ;         ;
+; db/alt_u_div_45f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/alt_u_div_45f.tdf       ;         ;
+; db/add_sub_lkc.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/add_sub_lkc.tdf         ;         ;
+; db/add_sub_mkc.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/add_sub_mkc.tdf         ;         ;
+; db/lpm_divide_ufm.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/lpm_divide_ufm.tdf      ;         ;
+; db/sign_div_unsign_8nh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/sign_div_unsign_8nh.tdf ;         ;
+; db/alt_u_div_i5f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/alt_u_div_i5f.tdf       ;         ;
+; db/lpm_divide_vfm.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/lpm_divide_vfm.tdf      ;         ;
+; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/sign_div_unsign_9nh.tdf ;         ;
+; db/alt_u_div_k5f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/alt_u_div_k5f.tdf       ;         ;
+; db/lpm_divide_6gm.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/lpm_divide_6gm.tdf      ;         ;
+; db/sign_div_unsign_gnh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/sign_div_unsign_gnh.tdf ;         ;
+; db/alt_u_div_26f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/db/alt_u_div_26f.tdf       ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -170,39 +215,183 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+----------+
 ; Resource                                    ; Usage    ;
 +---------------------------------------------+----------+
-; Estimated Total logic elements              ; 57       ;
+; Estimated Total logic elements              ; 2,470    ;
 ;                                             ;          ;
-; Total combinational functions               ; 57       ;
+; Total combinational functions               ; 2470     ;
 ; Logic element usage by number of LUT inputs ;          ;
-;     -- 4 input functions                    ; 23       ;
-;     -- 3 input functions                    ; 0        ;
-;     -- <=2 input functions                  ; 34       ;
+;     -- 4 input functions                    ; 696      ;
+;     -- 3 input functions                    ; 1171     ;
+;     -- <=2 input functions                  ; 603      ;
 ;                                             ;          ;
 ; Logic elements by mode                      ;          ;
-;     -- normal mode                          ; 26       ;
-;     -- arithmetic mode                      ; 31       ;
+;     -- normal mode                          ; 1306     ;
+;     -- arithmetic mode                      ; 1164     ;
 ;                                             ;          ;
-; Total registers                             ; 33       ;
-;     -- Dedicated logic registers            ; 33       ;
+; Total registers                             ; 306      ;
+;     -- Dedicated logic registers            ; 306      ;
 ;     -- I/O registers                        ; 0        ;
 ;                                             ;          ;
-; I/O pins                                    ; 19       ;
+; I/O pins                                    ; 41       ;
 ; Embedded Multiplier 9-bit elements          ; 0        ;
 ; Maximum fan-out node                        ; CLOCK_50 ;
-; Maximum fan-out                             ; 33       ;
-; Total fan-out                               ; 234      ;
-; Average fan-out                             ; 2.15     ;
+; Maximum fan-out                             ; 298      ;
+; Total fan-out                               ; 8162     ;
+; Average fan-out                             ; 2.90     ;
 +---------------------------------------------+----------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |DE2_Default               ; 57 (57)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 19   ; 0            ; |DE2_Default        ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                              ;
++----------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node             ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                          ; Library Name ;
++----------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------+--------------+
+; |DE2_Default                           ; 2470 (791)        ; 306 (298)    ; 0           ; 0            ; 0       ; 0         ; 41   ; 0            ; |DE2_Default                                                                                                 ; work         ;
+;    |PWM:pwm0|                          ; 22 (22)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm0                                                                                        ; work         ;
+;    |PWM:pwm10|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm10                                                                                       ; work         ;
+;    |PWM:pwm11|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm11                                                                                       ; work         ;
+;    |PWM:pwm12|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm12                                                                                       ; work         ;
+;    |PWM:pwm13|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm13                                                                                       ; work         ;
+;    |PWM:pwm14|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm14                                                                                       ; work         ;
+;    |PWM:pwm15|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm15                                                                                       ; work         ;
+;    |PWM:pwm16|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm16                                                                                       ; work         ;
+;    |PWM:pwm17|                         ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm17                                                                                       ; work         ;
+;    |PWM:pwm1|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm1                                                                                        ; work         ;
+;    |PWM:pwm2|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm2                                                                                        ; work         ;
+;    |PWM:pwm3|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm3                                                                                        ; work         ;
+;    |PWM:pwm4|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm4                                                                                        ; work         ;
+;    |PWM:pwm5|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm5                                                                                        ; work         ;
+;    |PWM:pwm6|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm6                                                                                        ; work         ;
+;    |PWM:pwm7|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm7                                                                                        ; work         ;
+;    |PWM:pwm8|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm8                                                                                        ; work         ;
+;    |PWM:pwm9|                          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|PWM:pwm9                                                                                        ; work         ;
+;    |lpm_divide:Div0|                   ; 115 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div0                                                                                 ; work         ;
+;       |lpm_divide_nfm:auto_generated|  ; 115 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div0|lpm_divide_nfm:auto_generated                                                   ; work         ;
+;          |sign_div_unsign_1nh:divider| ; 115 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div0|lpm_divide_nfm:auto_generated|sign_div_unsign_1nh:divider                       ; work         ;
+;             |alt_u_div_45f:divider|    ; 115 (115)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div0|lpm_divide_nfm:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_45f:divider ; work         ;
+;    |lpm_divide:Div1|                   ; 474 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div1                                                                                 ; work         ;
+;       |lpm_divide_ufm:auto_generated|  ; 474 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div1|lpm_divide_ufm:auto_generated                                                   ; work         ;
+;          |sign_div_unsign_8nh:divider| ; 474 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div1|lpm_divide_ufm:auto_generated|sign_div_unsign_8nh:divider                       ; work         ;
+;             |alt_u_div_i5f:divider|    ; 474 (474)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div1|lpm_divide_ufm:auto_generated|sign_div_unsign_8nh:divider|alt_u_div_i5f:divider ; work         ;
+;    |lpm_divide:Div2|                   ; 265 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div2                                                                                 ; work         ;
+;       |lpm_divide_vfm:auto_generated|  ; 265 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div2|lpm_divide_vfm:auto_generated                                                   ; work         ;
+;          |sign_div_unsign_9nh:divider| ; 265 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div2|lpm_divide_vfm:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;             |alt_u_div_k5f:divider|    ; 265 (265)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div2|lpm_divide_vfm:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;    |lpm_divide:Div3|                   ; 667 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div3                                                                                 ; work         ;
+;       |lpm_divide_6gm:auto_generated|  ; 667 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div3|lpm_divide_6gm:auto_generated                                                   ; work         ;
+;          |sign_div_unsign_gnh:divider| ; 667 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div3|lpm_divide_6gm:auto_generated|sign_div_unsign_gnh:divider                       ; work         ;
+;             |alt_u_div_26f:divider|    ; 667 (667)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE2_Default|lpm_divide:Div3|lpm_divide_6gm:auto_generated|sign_div_unsign_gnh:divider|alt_u_div_26f:divider ; work         ;
++----------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------------------------+
+; Registers Removed During Synthesis                                    ;
++-----------------------------------------+-----------------------------+
+; Register name                           ; Reason for Removal          ;
++-----------------------------------------+-----------------------------+
+; PWM:pwm10|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm11|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm12|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm13|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm14|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm15|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm16|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm17|cnt[2]                        ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm1|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm2|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm3|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm4|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm5|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm6|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm7|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm8|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm9|cnt[2]                         ; Merged with PWM:pwm0|cnt[2] ;
+; PWM:pwm10|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm11|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm12|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm13|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm14|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm15|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm16|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm17|cnt[1]                        ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm1|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm2|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm3|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm4|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm5|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm6|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm7|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm8|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm9|cnt[1]                         ; Merged with PWM:pwm0|cnt[1] ;
+; PWM:pwm10|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm11|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm12|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm13|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm14|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm15|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm16|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm17|cnt[0]                        ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm1|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm2|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm3|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm4|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm5|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm6|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm7|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm8|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm9|cnt[0]                         ; Merged with PWM:pwm0|cnt[0] ;
+; PWM:pwm10|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm11|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm12|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm13|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm14|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm15|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm16|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm17|cnt[3]                        ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm1|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm2|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm3|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm4|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm5|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm6|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm7|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm8|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm9|cnt[3]                         ; Merged with PWM:pwm0|cnt[3] ;
+; PWM:pwm10|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm11|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm12|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm13|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm14|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm15|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm16|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm17|cnt[4]                        ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm1|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm2|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm3|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm4|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm5|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm6|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm7|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm8|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm9|cnt[4]                         ; Merged with PWM:pwm0|cnt[4] ;
+; PWM:pwm10|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm11|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm12|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm13|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm14|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm15|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm16|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm17|cnt[5]                        ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm1|cnt[5]                         ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm2|cnt[5]                         ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm3|cnt[5]                         ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm4|cnt[5]                         ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm5|cnt[5]                         ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm6|cnt[5]                         ; Merged with PWM:pwm0|cnt[5] ;
+; PWM:pwm7|cnt[5]                         ; Merged with PWM:pwm0|cnt[5] ;
+; Total Number of Removed Registers = 137 ;                             ;
++-----------------------------------------+-----------------------------+
+* Table truncated at 100 items. To change the number of removed registers reported, set the "Number of Removed Registers Reported" option under Assignments->Settings->Analysis and Synthesis Settings->More Settings
 
 
 +------------------------------------------------------+
@@ -210,14 +399,61 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 33    ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Total registers                              ; 306   ;
+; Number of registers using Synchronous Clear  ; 128   ;
+; Number of registers using Synchronous Load   ; 12    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 54    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; delay[1]                               ; 16      ;
+; delay[4]                               ; 16      ;
+; delay[5]                               ; 16      ;
+; dim_time[2]                            ; 27      ;
+; dim_time[3]                            ; 27      ;
+; dim_time[5]                            ; 25      ;
+; dim_time[8]                            ; 21      ;
+; Total number of inverted registers = 7 ;         ;
++----------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------+
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|selected_led[4] ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|delay[9]        ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[17][3]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[16][7]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[15][5]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[14][7]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[13][7]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[12][5]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[11][5]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[10][0]     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[9][3]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[8][1]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[7][5]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[6][5]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[5][4]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[4][1]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[3][0]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[2][4]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[1][6]      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|leds[0][0]      ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |DE2_Default|dim_time[1]     ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |DE2_Default|delay[4]        ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |DE2_Default|dim_time[5]     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
@@ -225,8 +461,284 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+----------+-------------------------------------------------+
 ; Parameter Name ; Value    ; Type                                            ;
 +----------------+----------+-------------------------------------------------+
-; FREQ           ; 50000000 ; Signed Integer                                  ;
+; MAIN_FREQ      ; 50000000 ; Signed Integer                                  ;
+; PWM_FREQ       ; 1000     ; Signed Integer                                  ;
+; PWM_S_CNT      ; 200      ; Signed Integer                                  ;
+; LED_CNT        ; 18       ; Signed Integer                                  ;
+; MAX_BRIGHTNESS ; 200      ; Signed Integer                                  ;
 +----------------+----------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm0 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm1 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm2 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm3 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm4 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm5 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm6 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm7 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm8 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm9 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; SAMPLES        ; 200   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm10 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm11 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm12 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm13 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm14 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm15 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm16 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PWM:pwm17 ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; SAMPLES        ; 200   ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: lpm_divide:Div0 ;
++------------------------+----------------+------------------------+
+; Parameter Name         ; Value          ; Type                   ;
++------------------------+----------------+------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                ;
+; LPM_WIDTHD             ; 10             ; Untyped                ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_PIPELINE           ; 0              ; Untyped                ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                ;
+; CBXI_PARAMETER         ; lpm_divide_nfm ; Untyped                ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY             ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY           ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE           ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE         ;
++------------------------+----------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: lpm_divide:Div1 ;
++------------------------+----------------+------------------------+
+; Parameter Name         ; Value          ; Type                   ;
++------------------------+----------------+------------------------+
+; LPM_WIDTHN             ; 26             ; Untyped                ;
+; LPM_WIDTHD             ; 10             ; Untyped                ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_PIPELINE           ; 0              ; Untyped                ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                ;
+; CBXI_PARAMETER         ; lpm_divide_ufm ; Untyped                ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY             ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY           ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE           ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE         ;
++------------------------+----------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: lpm_divide:Div2 ;
++------------------------+----------------+------------------------+
+; Parameter Name         ; Value          ; Type                   ;
++------------------------+----------------+------------------------+
+; LPM_WIDTHN             ; 18             ; Untyped                ;
+; LPM_WIDTHD             ; 10             ; Untyped                ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_PIPELINE           ; 0              ; Untyped                ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                ;
+; CBXI_PARAMETER         ; lpm_divide_vfm ; Untyped                ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY             ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY           ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE           ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE         ;
++------------------------+----------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: lpm_divide:Div3 ;
++------------------------+----------------+------------------------+
+; Parameter Name         ; Value          ; Type                   ;
++------------------------+----------------+------------------------+
+; LPM_WIDTHN             ; 26             ; Untyped                ;
+; LPM_WIDTHD             ; 18             ; Untyped                ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                ;
+; LPM_PIPELINE           ; 0              ; Untyped                ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                ;
+; CBXI_PARAMETER         ; lpm_divide_6gm ; Untyped                ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY             ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY           ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE           ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE         ;
++------------------------+----------------+------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -235,7 +747,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:06     ;
 +----------------+--------------+
 
 
@@ -245,40 +757,106 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Jan 07 12:06:28 2023
+    Info: Processing started: Sat Jan 07 23:02:56 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE2_Default -c DE2_Default
+Info (12021): Found 1 design units, including 1 entities, in source file pwm.v
+    Info (12023): Found entity 1: PWM
 Info (12021): Found 1 design units, including 1 entities, in source file de2_default.v
     Info (12023): Found entity 1: DE2_Default
 Info (12127): Elaborating entity "DE2_Default" for the top level hierarchy
-Warning (10034): Output port "LEDR[17]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[15]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[13]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[11]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[9]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[7]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[5]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[3]" at DE2_Default.v(60) has no driver
-Warning (10034): Output port "LEDR[1]" at DE2_Default.v(60) has no driver
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDR[1]" is stuck at GND
-    Warning (13410): Pin "LEDR[3]" is stuck at GND
-    Warning (13410): Pin "LEDR[5]" is stuck at GND
-    Warning (13410): Pin "LEDR[7]" is stuck at GND
-    Warning (13410): Pin "LEDR[9]" is stuck at GND
-    Warning (13410): Pin "LEDR[11]" is stuck at GND
-    Warning (13410): Pin "LEDR[13]" is stuck at GND
-    Warning (13410): Pin "LEDR[15]" is stuck at GND
-    Warning (13410): Pin "LEDR[17]" is stuck at GND
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(123): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(124): truncated value with size 32 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(133): truncated value with size 32 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(144): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(142): truncated value with size 32 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(156): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(158): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(162): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at DE2_Default.v(164): truncated value with size 32 to match size of target (10)
+Info (12128): Elaborating entity "PWM" for hierarchy "PWM:pwm0"
+Warning (10230): Verilog HDL assignment warning at PWM.v(20): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at PWM.v(23): truncated value with size 32 to match size of target (1)
+Info (278001): Inferred 4 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div1"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div2"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div3"
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0"
+Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "10"
+    Info (12134): Parameter "LPM_WIDTHD" = "10"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_nfm.tdf
+    Info (12023): Found entity 1: lpm_divide_nfm
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_1nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_1nh
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_45f.tdf
+    Info (12023): Found entity 1: alt_u_div_45f
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_lkc.tdf
+    Info (12023): Found entity 1: add_sub_lkc
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_mkc.tdf
+    Info (12023): Found entity 1: add_sub_mkc
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div1"
+Info (12133): Instantiated megafunction "lpm_divide:Div1" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "26"
+    Info (12134): Parameter "LPM_WIDTHD" = "10"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ufm.tdf
+    Info (12023): Found entity 1: lpm_divide_ufm
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_8nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_8nh
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_i5f.tdf
+    Info (12023): Found entity 1: alt_u_div_i5f
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div2"
+Info (12133): Instantiated megafunction "lpm_divide:Div2" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "18"
+    Info (12134): Parameter "LPM_WIDTHD" = "10"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_vfm.tdf
+    Info (12023): Found entity 1: lpm_divide_vfm
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_9nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_9nh
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_k5f.tdf
+    Info (12023): Found entity 1: alt_u_div_k5f
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div3"
+Info (12133): Instantiated megafunction "lpm_divide:Div3" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "26"
+    Info (12134): Parameter "LPM_WIDTHD" = "18"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_6gm.tdf
+    Info (12023): Found entity 1: lpm_divide_6gm
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_gnh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_gnh
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_26f.tdf
+    Info (12023): Found entity 1: alt_u_div_26f
+Info (17016): Found the following redundant logic cells in design
+    Info (17048): Logic cell "lpm_divide:Div0|lpm_divide_nfm:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_45f:divider|add_sub_2_result_int[0]~6"
+    Info (17048): Logic cell "lpm_divide:Div0|lpm_divide_nfm:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_45f:divider|add_sub_3_result_int[0]~8"
+    Info (17048): Logic cell "lpm_divide:Div0|lpm_divide_nfm:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_45f:divider|add_sub_4_result_int[0]~10"
+    Info (17048): Logic cell "lpm_divide:Div0|lpm_divide_nfm:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_45f:divider|add_sub_6_result_int[0]~14"
+    Info (17048): Logic cell "lpm_divide:Div2|lpm_divide_vfm:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_1~20"
+    Info (17048): Logic cell "lpm_divide:Div2|lpm_divide_vfm:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_3~20"
+Info (144001): Generated suppressed messages file C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/DE2_Default.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 76 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 1 input pins
+Info (21057): Implemented 2511 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 23 input pins
     Info (21059): Implemented 18 output pins
-    Info (21061): Implemented 57 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 19 warnings
-    Info: Peak virtual memory: 4600 megabytes
-    Info: Processing ended: Sat Jan 07 12:06:29 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info (21061): Implemented 2470 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4649 megabytes
+    Info: Processing ended: Sat Jan 07 23:03:06 2023
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:03
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/Stratos/Documents/0_Projects/PB170/main_proj/DE2_Default/DE2_Default.map.smsg.
 
 

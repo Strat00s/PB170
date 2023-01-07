@@ -1,5 +1,9 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="DE2_Default">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_Default|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_nfm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_Default|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_ufm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_Default|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_vfm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_Default|lpm_divide:Div3" CBX_FILE_NAME="lpm_divide_6gm.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
